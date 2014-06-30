@@ -54,6 +54,8 @@ public class UtilityMatrixGenerator {
         
         user.getRatings().put( movieId, rating );
         movie.getRatings().put( userId, rating );
+        
+        utilityMatrix.getRatings().add( rating );
     }
     
     public static void readFile( UtilityMatrix utilityMatrix, boolean booleanRates ){

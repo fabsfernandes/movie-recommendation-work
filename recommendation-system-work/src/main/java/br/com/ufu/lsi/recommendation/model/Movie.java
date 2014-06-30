@@ -9,6 +9,14 @@ public class Movie {
     
     HashMap<Long,Double> ratings = new HashMap<Long,Double>();
     
+    String gender;
+    
+    String director;
+    
+    String starring;
+    
+    String language;
+    
     public Movie( Long id ){
         this.id = id;
     }
@@ -67,11 +75,75 @@ public class Movie {
         return true;
     }
 
+    
+    public String getGender() {
+    
+        return gender;
+    }
+
+
+    
+    public void setGender( String gender ) {
+    
+        this.gender = gender;
+    }
+
+
+    
+    public String getDirector() {
+    
+        return director;
+    }
+
+
+    
+    public void setDirector( String director ) {
+    
+        this.director = director;
+    }
+
+
+    
+    public String getStarring() {
+    
+        return starring;
+    }
+
+
+    
+    public void setStarring( String starring ) {
+    
+        this.starring = starring;
+    }
+
+
+    
+    public String getLanguage() {
+    
+        return language;
+    }
+
+
+    
+    public void setLanguage( String language ) {
+    
+        this.language = language;
+    }
+    
+    
+    public String toStringFull() {
+
+        return "Movie [id=" + id + ", gender=" + gender + ", director=" + director
+            + ", starring=" + starring + ", language=" + language + "]";
+    }
+
 
     @Override
     public String toString() {
 
         return "Movie [id=" + id + ", ratings=" + ratings + "]";
     }
+    
+    
 
 }
