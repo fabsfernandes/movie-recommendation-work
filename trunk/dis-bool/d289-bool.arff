@@ -1,0 +1,1235 @@
+@relation um-16727-bool
+
+@attribute gender {'Thriller', 'IMAX', 'War', 'Musical', 'Crime', 'Horror', 'Sci-Fi', 'Western', 'Action', 'Film-Noir', 'Adventure', 'Children', 'Comedy', 'Fantasy', 'Drama', 'Romance', 'Animation', 'Mystery'}
+@attribute director {'Nora Ephron', 'John McTiernan', 'George Roy Hill', 'Robert Zemeckis', 'Peter Lord', 'Chuck Russell', 'Frank Darabont', 'Penny Marshall', 'Irvin Kershner', 'Gore Verbinski', 'Ridley Scott', 'Sharon Maguire', 'Kevin Costner', 'Luc Besson', 'Stephen Sommers', 'Wes Anderson', 'Danny Boyle', 'Ivan Reitman', 'Barry Sonnenfeld', 'Joe Johnston', 'Peter Cattaneo', 'Trey Parker', 'McG', 'Clint Eastwood', 'John Cleese', 'William Friedkin', 'Peter Weir', 'Mike Nichols', 'Richard Donner', 'Spike Jonze', 'Penelope Spheeris', 'Simon West', 'Jim Abrahams', 'Joe Dante', 'Stephen Frears', 'Steven Spielberg', 'Gus Van Sant', 'Ron Howard', 'Tim Burton', 'Orson Welles', 'George Lucas', 'James L. Brooks', 'Peter Jackson', 'Andrew Davis', 'David O. Russell', 'Sam Mendes', 'John Madden', 'Andrew Adamson', 'Francis Ford Coppola', 'John G. Avildsen', 'Joel Schumacher', 'James Cameron', 'Dean Parisot', 'Bryan Singer', 'Ron Clements', 'Andrew Stanton', 'Jay Roach', 'David Cronenberg', 'Tony Scott', 'Kevin Smith', 'Chris Weitz', 'Peter Faiman', 'George Armitage', 'Tobe Hooper', 'Cameron Crowe', 'Paul Thomas Anderson', 'Stanley Kubrick', 'Mel Stuart', 'Martin Brest', 'M. Night Shyamalan', 'Amy Heckerling', 'Ron Underwood', 'Chris Columbus', 'John Landis', 'Mel Brooks', 'John Lasseter', 'Terry Gilliam', 'Michael Mann', 'Victor Fleming', 'Martin Scorsese', 'Franklin J. Schaffner', 'Bobby Farrelly', 'Gary Ross', 'Andy Wachowski', 'Jonathan Lynn', 'Jan de Bont', 'John Hughes', 'Paul Verhoeven', 'Steven Soderbergh', 'Chris Noonan', 'Andrew Niccol', 'Daniel Myrick', 'David Fincher', 'Rob Reiner', 'Ang Lee', 'Warren Beatty', 'Mike Judge', 'Phillip Noyce', 'Christopher Nolan', 'Jonathan Demme', 'Mike Newell', 'Randal Kleiser', 'Richard Marquand', 'Anthony Minghella', 'Gary Trousdale', 'Alfred Hitchcock', 'Nicholas Meyer', 'Frank Marshall', 'Quentin Tarantino', 'Sofia Coppola', 'Renny Harlin', 'Harold Ramis', 'Sam Raimi', 'Milos Forman', 'Wolfgang Petersen', 'Jerry Zucker', 'Pete Docter', 'Roger Allers', 'Michael Bay', 'Sydney Pollack', 'Barry Levinson', 'Oliver Stone', 'Doug Liman', 'Frank Capra', 'Peter Farrelly', 'Neil Jordan', 'John Woo', 'Roland Emmerich', 'Michael Curtiz', 'Brian De Palma', 'David Hand', 'Mel Gibson', 'Tom Shadyac', 'Curtis Hanson', 'Joel Coen', 'Martin Campbell', 'Garry Marshall'}
+@attribute starring {'Brian Cox', 'Albert Brooks', 'Harrison Ford', 'Kate Winslet', 'Bruce Willis', 'Patrick Magee', 'Elizabeth Hurley', 'Kevin Costner', 'Burt Young', 'Steve Harris', 'Charlton Heston', 'Ingrid Bergman', 'Jack Nicholson', 'Sean Astin', 'Kevin Spacey', 'Albert Finney', 'Tom Hanks', 'Gary Oldman', 'Michael Berryman', 'Jack Albertson', 'Simon Callow', 'Kirsten Dunst', 'Rod Taylor', 'Greg Kinnear', 'Anthony Michael Hall', 'William Katt', 'Dina Meyer', 'Tom Sizemore', 'Alan Arkin', 'Pete Postlethwaite', 'Ron Livingston', 'David Gulpilil', 'Philip Baker Hall', 'Sean Connery', 'Benicio Del Toro', 'Orson Welles', 'John Travolta', 'John Heard', 'Rory Culkin', 'Lauren Holly', 'Laurence Fishburne', 'Stellan SkarsgÃ¥rd', 'Robert Shaw', 'Sean Penn', 'Jonny Lee Miller', 'Anthony Perkins', 'Nick Searcy', 'Eva Marie Saint', 'F. Murray Abraham', 'DeForest Kelley', 'Danny Glover', 'Barbara Bel Geddes', 'Brian OHalloran', 'Lukas Haas', 'Marisa Tomei', 'Michael Douglas', 'Charlie Korsmo', 'Drew Barrymore', 'Michael Gambon', 'Tim Roth', 'Martin Kove', 'Don Ameche', 'Matt Stone', 'Linda Hamilton', 'RenÃ©e Zellweger', 'Tom Skerritt', 'Bernie Mac', 'Pat Morita', 'Jason Robards', 'Richard Attenborough', 'Jeff Bridges', 'Melinda Dillon', 'Hal Holbrook', 'Jack Black', 'Sam Robards', 'William Sylvester', 'Alan Rickman', 'Donna Reed', 'Mel Brooks', 'Anne Archer', 'Crispin Glover', 'Jodie Foster', 'Patrick Swayze', 'Chris Klein', 'Alexis Cruz', 'Adam Baldwin', 'Paul Winfield', 'Robert Duvall', 'Kevin Kline', 'Reginald VelJohnson', 'Brendan Fraser', 'Scott Weinger', 'James Spader', 'Matt Damon', 'Phoebe Cates', 'Christina Ricci', 'Patrick Bergin', 'Ralph Macchio', 'Janet Leigh', 'Ellen Burstyn', 'Juliette Lewis', 'James Earl Jones', 'Michael York', 'Christopher Lloyd', 'Will Smith', 'Sterling Hayden', 'Natalie Portman', 'Demi Moore', 'John Hannah', 'Trey Wilson', 'Jennifer Connelly', 'Samuel L. Jackson', 'Jonathan Hyde', 'William Forsythe', 'Chris Elliott', 'Dougray Scott', 'Tom Cruise', 'Arnold Schwarzenegger', 'Aaron Eckhart', 'James Stewart', 'Anna Faris', 'Pierce Brosnan', 'Leonard Nimoy', 'Bill Murray', 'Hugo Weaving', 'Joan Cusack', 'Sylvester Stallone', 'Humphrey Bogart', 'Mark Hamill', 'Vera Miles', 'Mary Kay Bergman', 'Paul Hogan', 'Harry Dean Stanton', 'Christopher Lee', 'Ronny Cox', 'Paul Rudd', 'Famke Janssen', 'Steve Huison', 'Lori Petty', 'Stacey Dash', 'Lucille La Verne', 'Leonardo DiCaprio', 'Alicia Silverstone', 'Charlie Sheen', 'Tom Hulce', 'Ewen Bremner', 'Eddie Murphy', 'Geoffrey Blake', 'Jeremy Irons', 'Philip Seymour Hoffman', 'Michelle Yeoh', 'Roshan Seth', 'Amy Irving', 'Arnold Vosloo', 'Phil Daniels', 'River Phoenix', 'Chazz Palminteri', 'Toni Collette', 'Martin Landau', 'Tippi Hedren', 'Dan OHerlihy', 'Matt Dillon', 'Zach Galligan', 'Cybill Shepherd', 'Don Rickles', 'Christopher Reeve', 'Tim Allen', 'Burt Reynolds', 'John Getz', 'Molly Ringwald', 'Chris Cooper', 'Marty Feldman', 'Billy Bob Thornton', 'Danny Lloyd', 'Nancy Allen', 'Cary Elwes', 'Dave Foley', 'Robby Benson', 'Joe Pantoliano', 'Hayden Christensen', 'Val Kilmer', 'Simon Jones', 'Peter Brocco', 'Deborah Kara Unger', 'Rowan Atkinson', 'Max von Sydow', 'Macaulay Culkin', 'Wil Wheaton', 'Jeff Goldblum', 'Robert De Niro', 'Ethan Hawke', 'Casper Van Dien', 'Roy Atwell', 'George Dzundza', 'John Goodman', 'Kathy Bates', 'Kevin Bacon', 'Keanu Reeves', 'Robert Wuhl', 'Kate Hudson', 'Michael C. Williams', 'Corey Feldman', 'Robert Redford', 'Stephen Baldwin', 'George C. Scott', 'Sean Bean', 'Patrick Stewart', 'Jude Law', 'Cate Blanchett', 'Hugh Grant', 'Anjelica Huston', 'Zack Norman', 'Edward James Olmos', 'Michael Madsen', 'John Malkovich', 'Warren Beatty', 'Gary Lockwood', 'Diane Keaton', 'James Cromwell', 'Anne Bancroft', 'Lea Thompson', 'Billy Crudup', 'Christine Cavanaugh', 'Kelly McGillis', 'Robert Carlyle', 'Katharine Ross', 'Oliver Reed', 'Mandy Patinkin', 'Meg Ryan', 'Rodney Dangerfield', 'Courteney Cox', 'Jason Alexander', 'Roddy McDowall', 'Joanna Cassidy', 'James Brown', 'Colin Firth', 'Gary Busey', 'Sharon Stone', 'Christopher Walken', 'Jason Mewes', 'Gabriel Byrne', 'Morgan Freeman', 'Milla Jovovich', 'Brawley Nolte', 'Jacob Vargas', 'Kurt Russell', 'Dorothy Comingore', 'JoBeth Williams', 'Mykelti Williamson', 'R. Lee Ermey', 'Ewan McGregor', 'Gerald R. Molen', 'Billy Crystal', 'Chris Noth', 'Richard Gere', 'Russell Crowe', 'Thora Birch', 'Karen Allen', 'Sigourney Weaver', 'Harley Jane Kozak', 'Robin Williams', 'Ed Harris', 'Vincent DOnofrio', 'Jeanne Tripplehorn', 'Dustin Hoffman', 'Dee Wallace-Stone', 'Andy Garcia', 'Daniel Stern', 'Robert Loggia', 'Julianne Moore', 'John Cleese', 'Heather Graham', 'Paul Henreid', 'Teri Garr', 'Michael Palin', 'Mark Wahlberg', 'Sean Young', 'Ian McKellen', 'Hugh Jackman', 'Jon Voight', 'Shelley Duvall', 'Spencer Treat Clark', 'Spike Jonze', 'Nicole Kidman', 'Blythe Danner', 'Jean Reno', 'Leslie Nielsen', 'Kim Novak', 'Bob Hoskins', 'Linda Fiorentino', 'Thelma Ritter', 'Tung Thanh Tran', 'Frances McDormand', 'Edward Burns', 'Paul Freeman', 'William H. Macy', 'Sam Neill', 'John Belushi', 'Cameron Diaz', 'Rob Lowe', 'Gary Sinise', 'Sophie Marceau', 'Eric Idle', 'Catherine Keener', 'Matthew Broderick', 'Alessandro Nivola', 'Bruno Kirby', 'Kristin Scott Thomas', 'Winona Ryder', 'Brad Pitt', 'Robert Sean Leonard', 'Daniel Radcliffe', 'Peter Greene', 'Jeff Conaway', 'Bob Gunton', 'Peter Riegert', 'Danny DeVito', 'Jessica Lange', 'Gene Hackman', 'George Clooney', 'Martin Sheen', 'Seann William Scott', 'Dan Aykroyd', 'Lionel Barrymore', 'John Rhys-Davies', 'Ajay Naidu', 'Malcolm McDowell', 'Ice Cube', 'Peter Boyle', 'Todd Louiso', 'John Ashton', 'Dylan McDermott', 'Jeff Anderson', 'Whoopi Goldberg', 'FranÃ§ois Truffaut', 'Noah Emmerich', 'Christopher Guest', 'Guy Pearce', 'Eugene Levy', 'Tim Blake Nelson', 'John Cusack', 'Robert Hays', 'Haley Joel Osment', 'Gwyneth Paltrow', 'Ray Bolger', 'Craig T. Nelson', 'Andrew Chavez', 'Julie Hagerty', 'Michael Keaton', 'Tom Arnold', 'Lance Henriksen', 'Piper Laurie', 'Scarlett Johansson', 'Billy Zane', 'Michael McKean', 'Edward Furlong', 'Don Cheadle', 'Tim McMullen', 'Harry Shearer', 'Richard Farnsworth', 'Franka Potente', 'Jerry Orbach', 'Reese Witherspoon', 'Emma Watson', 'Annette Bening', 'Willem Dafoe', 'Graham Chapman', 'Kelly Preston', 'Linda Kozlowski', 'Johnny Depp', 'John Lithgow', 'Graham Greene', 'Dennis Hopper', 'Alexander Gould', 'Alec Baldwin', 'Marcia Strassman', 'Orlando Bloom', 'Justin Cooper', 'Michael Rooker', 'Edward Norton', 'James Coburn', 'Jeff Daniels', 'Jim Carrey', 'Nicolas Cage', 'Julia Roberts', 'Marlon Brando', 'Denzel Washington', 'Joe Morton', 'Rene Russo', 'Roy Scheider', 'Glenn Close', 'Tom Berenger', 'Tobey Maguire', 'Jason Biggs', 'Liam Neeson', 'Bradley Pierce', 'Matt Frewer', 'Chow Yun-Fat', 'Keir Dullea', 'Henry Thomas', 'Joaquin Phoenix', 'Cleavon Little', 'Paul Reiser', 'Rick Moranis', 'Mark Addy', 'Trey Parker', 'Ellen DeGeneres', 'Clint Eastwood', 'Bill Duke', 'Denise Richards', 'Hoyt Axton', 'Stephen Furst', 'Delroy Lindo', 'Joshua Leonard', 'Judge Reinhold', 'Ben Kingsley', 'David Herman', 'Olivia Newton-John', 'James Franco', 'Patricia Arquette', 'Anthony Edwards', 'Adriana Caselotti', 'William Shatner', 'John Candy', 'James Mason', 'Scott Glenn', 'Jeffrey Jones', 'Billy Dee Williams', 'Tony Haygarth', 'Michael Clarke Duncan', 'Woody Harrelson', 'Jake Lloyd', 'Josh Charles', 'Peter Ostrum', 'Peter Weller', 'Leo Burmester', 'Gene Wilder', 'Bill Pullman', 'Paul Newman', 'Frank Morgan', 'Frances OConnor', 'Alan Ruck', 'Michael Biehn', 'Joss Ackland', 'Amrish Puri', 'Julia Louis-Dreyfus', 'Mike Myers', 'Joseph Fiennes', 'Forest Whitaker', 'Dana Carvey', 'Cary Grant', 'Rutger Hauer', 'Ralph Fiennes', 'Grace Kelly', 'Carrie-Anne Moss', 'Rodney A. Grant', 'William Atherton', 'Slim Pickens', 'Henry Czerny', 'Richard White', 'Peter Sellers', 'Frederic Forrest', 'Steve Buscemi', 'Andie MacDowell', 'Ziyi Zhang', 'Viggo Mortensen', 'Michael Bates', 'Jon Seda', 'James Caan', 'Geoffrey Rush', 'Harvey Keitel', 'Ray Liotta', 'Raul Julia', 'Tommy Lee Jones', 'Dominique Dunne', 'Michael J. Fox', 'Ben Affleck', 'Cuba Gooding Jr.', 'Carrie Fisher', 'Xander Berkeley', 'Joseph Cotten', 'Richard Dreyfuss', 'Suzanne Pleshette', 'Emilio Estevez', 'Sally Field', 'Jonathan Freeman', 'Al Pacino', 'Joe Pesci', 'Jamie Lee Curtis', 'Helena Bonham Carter', 'Linda Blair', 'Thandie Newton', 'Mia Sara', 'Sydney Pollack', 'Tim Robbins', 'David Morse', 'Vince Vaughn', 'Kim Hunter', 'Geena Davis', 'Ben Stiller', 'Robert MacNaughton', 'Helen Hunt', 'Christian Slater', 'Mel Gibson', 'Danny Mann', 'Carl Weathers', 'Rupert Grint', 'Bill Paxton', 'Anthony Hopkins', 'Tony Shalhoub', 'Bonnie Bedelia', 'Judy Garland', 'Larry Miller', 'Bob Griffin'}
+@attribute language {'English', 'Mandarin'}
+@attribute class {0.0, 1.0}
+@data
+'Action','Tony Scott','Tom Cruise','English',1.0
+'Action','Tony Scott','Kelly McGillis','English',1.0
+'Action','Tony Scott','Anthony Edwards','English',1.0
+'Romance','Tony Scott','Tom Cruise','English',1.0
+'Romance','Tony Scott','Kelly McGillis','English',1.0
+'Romance','Tony Scott','Anthony Edwards','English',1.0
+'Action','Nicholas Meyer','William Shatner','English',0.0
+'Action','Nicholas Meyer','Leonard Nimoy','English',0.0
+'Action','Nicholas Meyer','DeForest Kelley','English',0.0
+'Adventure','Nicholas Meyer','William Shatner','English',0.0
+'Adventure','Nicholas Meyer','Leonard Nimoy','English',0.0
+'Adventure','Nicholas Meyer','DeForest Kelley','English',0.0
+'Sci-Fi','Nicholas Meyer','William Shatner','English',0.0
+'Sci-Fi','Nicholas Meyer','Leonard Nimoy','English',0.0
+'Sci-Fi','Nicholas Meyer','DeForest Kelley','English',0.0
+'Horror','M. Night Shyamalan','Mel Gibson','English',1.0
+'Horror','M. Night Shyamalan','Joaquin Phoenix','English',1.0
+'Horror','M. Night Shyamalan','Rory Culkin','English',1.0
+'Sci-Fi','M. Night Shyamalan','Mel Gibson','English',1.0
+'Sci-Fi','M. Night Shyamalan','Joaquin Phoenix','English',1.0
+'Sci-Fi','M. Night Shyamalan','Rory Culkin','English',1.0
+'Thriller','M. Night Shyamalan','Mel Gibson','English',1.0
+'Thriller','M. Night Shyamalan','Joaquin Phoenix','English',1.0
+'Thriller','M. Night Shyamalan','Rory Culkin','English',1.0
+'Action','Michael Bay','Ben Affleck','English',0.0
+'Action','Michael Bay','Billy Bob Thornton','English',0.0
+'Action','Michael Bay','Bruce Willis','English',0.0
+'Romance','Michael Bay','Ben Affleck','English',0.0
+'Romance','Michael Bay','Billy Bob Thornton','English',0.0
+'Romance','Michael Bay','Bruce Willis','English',0.0
+'Sci-Fi','Michael Bay','Ben Affleck','English',0.0
+'Sci-Fi','Michael Bay','Billy Bob Thornton','English',0.0
+'Sci-Fi','Michael Bay','Bruce Willis','English',0.0
+'Children','Steven Spielberg','Henry Thomas','English',1.0
+'Children','Steven Spielberg','Dee Wallace-Stone','English',1.0
+'Children','Steven Spielberg','Robert MacNaughton','English',1.0
+'Drama','Steven Spielberg','Henry Thomas','English',1.0
+'Drama','Steven Spielberg','Dee Wallace-Stone','English',1.0
+'Drama','Steven Spielberg','Robert MacNaughton','English',1.0
+'Sci-Fi','Steven Spielberg','Henry Thomas','English',1.0
+'Sci-Fi','Steven Spielberg','Dee Wallace-Stone','English',1.0
+'Sci-Fi','Steven Spielberg','Robert MacNaughton','English',1.0
+'Action','Renny Harlin','William Atherton','English',1.0
+'Action','Renny Harlin','Reginald VelJohnson','English',1.0
+'Action','Renny Harlin','Bruce Willis','English',1.0
+'Adventure','Renny Harlin','William Atherton','English',1.0
+'Adventure','Renny Harlin','Reginald VelJohnson','English',1.0
+'Adventure','Renny Harlin','Bruce Willis','English',1.0
+'Thriller','Renny Harlin','William Atherton','English',1.0
+'Thriller','Renny Harlin','Reginald VelJohnson','English',1.0
+'Thriller','Renny Harlin','Bruce Willis','English',1.0
+'Action','Michael Mann','Robert De Niro','English',1.0
+'Action','Michael Mann','Al Pacino','English',1.0
+'Action','Michael Mann','Val Kilmer','English',1.0
+'Crime','Michael Mann','Robert De Niro','English',1.0
+'Crime','Michael Mann','Al Pacino','English',1.0
+'Crime','Michael Mann','Val Kilmer','English',1.0
+'Thriller','Michael Mann','Robert De Niro','English',1.0
+'Thriller','Michael Mann','Al Pacino','English',1.0
+'Thriller','Michael Mann','Val Kilmer','English',1.0
+'Crime','Paul Verhoeven','Michael Douglas','English',1.0
+'Crime','Paul Verhoeven','Sharon Stone','English',1.0
+'Crime','Paul Verhoeven','George Dzundza','English',1.0
+'Mystery','Paul Verhoeven','Michael Douglas','English',1.0
+'Mystery','Paul Verhoeven','Sharon Stone','English',1.0
+'Mystery','Paul Verhoeven','George Dzundza','English',1.0
+'Thriller','Paul Verhoeven','Michael Douglas','English',1.0
+'Thriller','Paul Verhoeven','Sharon Stone','English',1.0
+'Thriller','Paul Verhoeven','George Dzundza','English',1.0
+'Action','Brian De Palma','Sean Connery','English',1.0
+'Action','Brian De Palma','Kevin Costner','English',1.0
+'Action','Brian De Palma','Andy Garcia','English',1.0
+'Crime','Brian De Palma','Sean Connery','English',1.0
+'Crime','Brian De Palma','Kevin Costner','English',1.0
+'Crime','Brian De Palma','Andy Garcia','English',1.0
+'Drama','Brian De Palma','Sean Connery','English',1.0
+'Drama','Brian De Palma','Kevin Costner','English',1.0
+'Drama','Brian De Palma','Andy Garcia','English',1.0
+'Crime','Quentin Tarantino','Harvey Keitel','English',1.0
+'Crime','Quentin Tarantino','Tim Roth','English',1.0
+'Crime','Quentin Tarantino','Michael Madsen','English',1.0
+'Mystery','Quentin Tarantino','Harvey Keitel','English',1.0
+'Mystery','Quentin Tarantino','Tim Roth','English',1.0
+'Mystery','Quentin Tarantino','Michael Madsen','English',1.0
+'Thriller','Quentin Tarantino','Harvey Keitel','English',1.0
+'Thriller','Quentin Tarantino','Tim Roth','English',1.0
+'Thriller','Quentin Tarantino','Michael Madsen','English',1.0
+'Drama','Oliver Stone','Tom Berenger','English',1.0
+'Drama','Oliver Stone','Willem Dafoe','English',1.0
+'Drama','Oliver Stone','Charlie Sheen','English',1.0
+'War','Oliver Stone','Tom Berenger','English',1.0
+'War','Oliver Stone','Willem Dafoe','English',1.0
+'War','Oliver Stone','Charlie Sheen','English',1.0
+'Action','Martin Brest','John Ashton','English',1.0
+'Action','Martin Brest','Eddie Murphy','English',1.0
+'Action','Martin Brest','Judge Reinhold','English',1.0
+'Comedy','Martin Brest','John Ashton','English',1.0
+'Comedy','Martin Brest','Eddie Murphy','English',1.0
+'Comedy','Martin Brest','Judge Reinhold','English',1.0
+'Crime','Martin Brest','John Ashton','English',1.0
+'Crime','Martin Brest','Eddie Murphy','English',1.0
+'Crime','Martin Brest','Judge Reinhold','English',1.0
+'Action','George Lucas','Mark Hamill','English',1.0
+'Action','George Lucas','Harrison Ford','English',1.0
+'Action','George Lucas','Carrie Fisher','English',1.0
+'Adventure','George Lucas','Mark Hamill','English',1.0
+'Adventure','George Lucas','Harrison Ford','English',1.0
+'Adventure','George Lucas','Carrie Fisher','English',1.0
+'Sci-Fi','George Lucas','Mark Hamill','English',1.0
+'Sci-Fi','George Lucas','Harrison Ford','English',1.0
+'Sci-Fi','George Lucas','Carrie Fisher','English',1.0
+'Comedy','Spike Jonze','John Cusack','English',0.0
+'Comedy','Spike Jonze','Cameron Diaz','English',0.0
+'Comedy','Spike Jonze','Catherine Keener','English',0.0
+'Drama','Spike Jonze','John Cusack','English',0.0
+'Drama','Spike Jonze','Cameron Diaz','English',0.0
+'Drama','Spike Jonze','Catherine Keener','English',0.0
+'Fantasy','Spike Jonze','John Cusack','English',0.0
+'Fantasy','Spike Jonze','Cameron Diaz','English',0.0
+'Fantasy','Spike Jonze','Catherine Keener','English',0.0
+'Drama','Andrew Niccol','Xander Berkeley','English',1.0
+'Drama','Andrew Niccol','Ethan Hawke','English',1.0
+'Drama','Andrew Niccol','Jude Law','English',1.0
+'Sci-Fi','Andrew Niccol','Xander Berkeley','English',1.0
+'Sci-Fi','Andrew Niccol','Ethan Hawke','English',1.0
+'Sci-Fi','Andrew Niccol','Jude Law','English',1.0
+'Thriller','Andrew Niccol','Xander Berkeley','English',1.0
+'Thriller','Andrew Niccol','Ethan Hawke','English',1.0
+'Thriller','Andrew Niccol','Jude Law','English',1.0
+'Drama','Brian De Palma','William Katt','English',1.0
+'Drama','Brian De Palma','Amy Irving','English',1.0
+'Drama','Brian De Palma','Piper Laurie','English',1.0
+'Fantasy','Brian De Palma','William Katt','English',1.0
+'Fantasy','Brian De Palma','Amy Irving','English',1.0
+'Fantasy','Brian De Palma','Piper Laurie','English',1.0
+'Horror','Brian De Palma','William Katt','English',1.0
+'Horror','Brian De Palma','Amy Irving','English',1.0
+'Horror','Brian De Palma','Piper Laurie','English',1.0
+'Adventure','Steven Spielberg','Haley Joel Osment','English',0.0
+'Adventure','Steven Spielberg','Frances OConnor','English',0.0
+'Adventure','Steven Spielberg','Sam Robards','English',0.0
+'Drama','Steven Spielberg','Haley Joel Osment','English',0.0
+'Drama','Steven Spielberg','Frances OConnor','English',0.0
+'Drama','Steven Spielberg','Sam Robards','English',0.0
+'Sci-Fi','Steven Spielberg','Haley Joel Osment','English',0.0
+'Sci-Fi','Steven Spielberg','Frances OConnor','English',0.0
+'Sci-Fi','Steven Spielberg','Sam Robards','English',0.0
+'Action','David Fincher','Edward Norton','English',1.0
+'Action','David Fincher','Brad Pitt','English',1.0
+'Action','David Fincher','Helena Bonham Carter','English',1.0
+'Crime','David Fincher','Edward Norton','English',1.0
+'Crime','David Fincher','Brad Pitt','English',1.0
+'Crime','David Fincher','Helena Bonham Carter','English',1.0
+'Drama','David Fincher','Edward Norton','English',1.0
+'Drama','David Fincher','Brad Pitt','English',1.0
+'Drama','David Fincher','Helena Bonham Carter','English',1.0
+'Action','Ivan Reitman','Bill Murray','English',1.0
+'Action','Ivan Reitman','Dan Aykroyd','English',1.0
+'Action','Ivan Reitman','Sigourney Weaver','English',1.0
+'Comedy','Ivan Reitman','Bill Murray','English',1.0
+'Comedy','Ivan Reitman','Dan Aykroyd','English',1.0
+'Comedy','Ivan Reitman','Sigourney Weaver','English',1.0
+'Sci-Fi','Ivan Reitman','Bill Murray','English',1.0
+'Sci-Fi','Ivan Reitman','Dan Aykroyd','English',1.0
+'Sci-Fi','Ivan Reitman','Sigourney Weaver','English',1.0
+'Action','Wolfgang Petersen','Harrison Ford','English',0.0
+'Action','Wolfgang Petersen','Gary Oldman','English',0.0
+'Action','Wolfgang Petersen','Glenn Close','English',0.0
+'Thriller','Wolfgang Petersen','Harrison Ford','English',0.0
+'Thriller','Wolfgang Petersen','Gary Oldman','English',0.0
+'Thriller','Wolfgang Petersen','Glenn Close','English',0.0
+'Action','Gore Verbinski','Johnny Depp','English',0.0
+'Action','Gore Verbinski','Geoffrey Rush','English',0.0
+'Action','Gore Verbinski','Orlando Bloom','English',0.0
+'Adventure','Gore Verbinski','Johnny Depp','English',0.0
+'Adventure','Gore Verbinski','Geoffrey Rush','English',0.0
+'Adventure','Gore Verbinski','Orlando Bloom','English',0.0
+'Comedy','Gore Verbinski','Johnny Depp','English',0.0
+'Comedy','Gore Verbinski','Geoffrey Rush','English',0.0
+'Comedy','Gore Verbinski','Orlando Bloom','English',0.0
+'Crime','Steven Soderbergh','Benicio Del Toro','English',1.0
+'Crime','Steven Soderbergh','Jacob Vargas','English',1.0
+'Crime','Steven Soderbergh','Andrew Chavez','English',1.0
+'Drama','Steven Soderbergh','Benicio Del Toro','English',1.0
+'Drama','Steven Soderbergh','Jacob Vargas','English',1.0
+'Drama','Steven Soderbergh','Andrew Chavez','English',1.0
+'Thriller','Steven Soderbergh','Benicio Del Toro','English',1.0
+'Thriller','Steven Soderbergh','Jacob Vargas','English',1.0
+'Thriller','Steven Soderbergh','Andrew Chavez','English',1.0
+'Mystery','Terry Gilliam','Bruce Willis','English',1.0
+'Mystery','Terry Gilliam','Jon Seda','English',1.0
+'Mystery','Terry Gilliam','Simon Jones','English',1.0
+'Sci-Fi','Terry Gilliam','Bruce Willis','English',1.0
+'Sci-Fi','Terry Gilliam','Jon Seda','English',1.0
+'Sci-Fi','Terry Gilliam','Simon Jones','English',1.0
+'Thriller','Terry Gilliam','Bruce Willis','English',1.0
+'Thriller','Terry Gilliam','Jon Seda','English',1.0
+'Thriller','Terry Gilliam','Simon Jones','English',1.0
+'Drama','Stanley Kubrick','Tom Cruise','English',1.0
+'Drama','Stanley Kubrick','Nicole Kidman','English',1.0
+'Drama','Stanley Kubrick','Sydney Pollack','English',1.0
+'Mystery','Stanley Kubrick','Tom Cruise','English',1.0
+'Mystery','Stanley Kubrick','Nicole Kidman','English',1.0
+'Mystery','Stanley Kubrick','Sydney Pollack','English',1.0
+'Thriller','Stanley Kubrick','Tom Cruise','English',1.0
+'Thriller','Stanley Kubrick','Nicole Kidman','English',1.0
+'Thriller','Stanley Kubrick','Sydney Pollack','English',1.0
+'Drama','Daniel Myrick','Bob Griffin','English',0.0
+'Drama','Daniel Myrick','Joshua Leonard','English',0.0
+'Drama','Daniel Myrick','Michael C. Williams','English',0.0
+'Horror','Daniel Myrick','Bob Griffin','English',0.0
+'Horror','Daniel Myrick','Joshua Leonard','English',0.0
+'Horror','Daniel Myrick','Michael C. Williams','English',0.0
+'Thriller','Daniel Myrick','Bob Griffin','English',0.0
+'Thriller','Daniel Myrick','Joshua Leonard','English',0.0
+'Thriller','Daniel Myrick','Michael C. Williams','English',0.0
+'Drama','Steven Spielberg','Ralph Fiennes','English',1.0
+'Drama','Steven Spielberg','Ben Kingsley','English',1.0
+'Drama','Steven Spielberg','Liam Neeson','English',1.0
+'War','Steven Spielberg','Ralph Fiennes','English',1.0
+'War','Steven Spielberg','Ben Kingsley','English',1.0
+'War','Steven Spielberg','Liam Neeson','English',1.0
+'Crime','David Fincher','Brad Pitt','English',1.0
+'Crime','David Fincher','Morgan Freeman','English',1.0
+'Crime','David Fincher','Gwyneth Paltrow','English',1.0
+'Mystery','David Fincher','Brad Pitt','English',1.0
+'Mystery','David Fincher','Morgan Freeman','English',1.0
+'Mystery','David Fincher','Gwyneth Paltrow','English',1.0
+'Thriller','David Fincher','Brad Pitt','English',1.0
+'Thriller','David Fincher','Morgan Freeman','English',1.0
+'Thriller','David Fincher','Gwyneth Paltrow','English',1.0
+'Adventure','Peter Faiman','Paul Hogan','English',0.0
+'Adventure','Peter Faiman','Linda Kozlowski','English',0.0
+'Adventure','Peter Faiman','David Gulpilil','English',0.0
+'Comedy','Peter Faiman','Paul Hogan','English',0.0
+'Comedy','Peter Faiman','Linda Kozlowski','English',0.0
+'Comedy','Peter Faiman','David Gulpilil','English',0.0
+'Crime','Frank Darabont','Tim Robbins','English',1.0
+'Crime','Frank Darabont','Morgan Freeman','English',1.0
+'Crime','Frank Darabont','Bob Gunton','English',1.0
+'Drama','Frank Darabont','Tim Robbins','English',1.0
+'Drama','Frank Darabont','Morgan Freeman','English',1.0
+'Drama','Frank Darabont','Bob Gunton','English',1.0
+'Action','Oliver Stone','Woody Harrelson','English',1.0
+'Action','Oliver Stone','Juliette Lewis','English',1.0
+'Action','Oliver Stone','Rodney Dangerfield','English',1.0
+'Crime','Oliver Stone','Woody Harrelson','English',1.0
+'Crime','Oliver Stone','Juliette Lewis','English',1.0
+'Crime','Oliver Stone','Rodney Dangerfield','English',1.0
+'Thriller','Oliver Stone','Woody Harrelson','English',1.0
+'Thriller','Oliver Stone','Juliette Lewis','English',1.0
+'Thriller','Oliver Stone','Rodney Dangerfield','English',1.0
+'Adventure','David Fincher','Michael Douglas','English',1.0
+'Adventure','David Fincher','Sean Penn','English',1.0
+'Adventure','David Fincher','Deborah Kara Unger','English',1.0
+'Film-Noir','David Fincher','Michael Douglas','English',1.0
+'Film-Noir','David Fincher','Sean Penn','English',1.0
+'Film-Noir','David Fincher','Deborah Kara Unger','English',1.0
+'Mystery','David Fincher','Michael Douglas','English',1.0
+'Mystery','David Fincher','Sean Penn','English',1.0
+'Mystery','David Fincher','Deborah Kara Unger','English',1.0
+'Crime','Bryan Singer','Stephen Baldwin',?,1.0
+'Crime','Bryan Singer','Gabriel Byrne',?,1.0
+'Crime','Bryan Singer','Benicio Del Toro',?,1.0
+'Mystery','Bryan Singer','Stephen Baldwin',?,1.0
+'Mystery','Bryan Singer','Gabriel Byrne',?,1.0
+'Mystery','Bryan Singer','Benicio Del Toro',?,1.0
+'Thriller','Bryan Singer','Stephen Baldwin',?,1.0
+'Thriller','Bryan Singer','Gabriel Byrne',?,1.0
+'Thriller','Bryan Singer','Benicio Del Toro',?,1.0
+'Action','Wolfgang Petersen','Morgan Freeman','English',1.0
+'Action','Wolfgang Petersen','Dustin Hoffman','English',1.0
+'Action','Wolfgang Petersen','Kevin Spacey','English',1.0
+'Drama','Wolfgang Petersen','Morgan Freeman','English',1.0
+'Drama','Wolfgang Petersen','Dustin Hoffman','English',1.0
+'Drama','Wolfgang Petersen','Kevin Spacey','English',1.0
+'Sci-Fi','Wolfgang Petersen','Morgan Freeman','English',1.0
+'Sci-Fi','Wolfgang Petersen','Dustin Hoffman','English',1.0
+'Sci-Fi','Wolfgang Petersen','Kevin Spacey','English',1.0
+'Action','Luc Besson','Jean Reno','English',1.0
+'Action','Luc Besson','Gary Oldman','English',1.0
+'Action','Luc Besson','Natalie Portman','English',1.0
+'Crime','Luc Besson','Jean Reno','English',1.0
+'Crime','Luc Besson','Gary Oldman','English',1.0
+'Crime','Luc Besson','Natalie Portman','English',1.0
+'Drama','Luc Besson','Jean Reno','English',1.0
+'Drama','Luc Besson','Gary Oldman','English',1.0
+'Drama','Luc Besson','Natalie Portman','English',1.0
+'Action','Steven Spielberg','Richard Dreyfuss','English',0.0
+'Action','Steven Spielberg','Roy Scheider','English',0.0
+'Action','Steven Spielberg','Robert Shaw','English',0.0
+'Horror','Steven Spielberg','Richard Dreyfuss','English',0.0
+'Horror','Steven Spielberg','Roy Scheider','English',0.0
+'Horror','Steven Spielberg','Robert Shaw','English',0.0
+'Action','Ridley Scott','Harrison Ford','English',1.0
+'Action','Ridley Scott','Rutger Hauer','English',1.0
+'Action','Ridley Scott','Edward James Olmos','English',1.0
+'Film-Noir','Ridley Scott','Harrison Ford','English',1.0
+'Film-Noir','Ridley Scott','Rutger Hauer','English',1.0
+'Film-Noir','Ridley Scott','Edward James Olmos','English',1.0
+'Sci-Fi','Ridley Scott','Harrison Ford','English',1.0
+'Sci-Fi','Ridley Scott','Rutger Hauer','English',1.0
+'Sci-Fi','Ridley Scott','Edward James Olmos','English',1.0
+'Comedy','Quentin Tarantino','John Travolta','English',1.0
+'Comedy','Quentin Tarantino','Samuel L. Jackson','English',1.0
+'Comedy','Quentin Tarantino','Tim Roth','English',1.0
+'Crime','Quentin Tarantino','John Travolta','English',1.0
+'Crime','Quentin Tarantino','Samuel L. Jackson','English',1.0
+'Crime','Quentin Tarantino','Tim Roth','English',1.0
+'Drama','Quentin Tarantino','John Travolta','English',1.0
+'Drama','Quentin Tarantino','Samuel L. Jackson','English',1.0
+'Drama','Quentin Tarantino','Tim Roth','English',1.0
+'Crime','Curtis Hanson','James Cromwell','English',1.0
+'Crime','Curtis Hanson','Russell Crowe','English',1.0
+'Crime','Curtis Hanson','Guy Pearce','English',1.0
+'Film-Noir','Curtis Hanson','James Cromwell','English',1.0
+'Film-Noir','Curtis Hanson','Russell Crowe','English',1.0
+'Film-Noir','Curtis Hanson','Guy Pearce','English',1.0
+'Mystery','Curtis Hanson','James Cromwell','English',1.0
+'Mystery','Curtis Hanson','Russell Crowe','English',1.0
+'Mystery','Curtis Hanson','Guy Pearce','English',1.0
+'Action','Steven Spielberg','Tom Cruise','English',0.0
+'Action','Steven Spielberg','Max von Sydow','English',0.0
+'Action','Steven Spielberg','Steve Harris','English',0.0
+'Crime','Steven Spielberg','Tom Cruise','English',0.0
+'Crime','Steven Spielberg','Max von Sydow','English',0.0
+'Crime','Steven Spielberg','Steve Harris','English',0.0
+'Mystery','Steven Spielberg','Tom Cruise','English',0.0
+'Mystery','Steven Spielberg','Max von Sydow','English',0.0
+'Mystery','Steven Spielberg','Steve Harris','English',0.0
+'Comedy','Sydney Pollack','Dustin Hoffman','English',1.0
+'Comedy','Sydney Pollack','Jessica Lange','English',1.0
+'Comedy','Sydney Pollack','Teri Garr','English',1.0
+'Romance','Sydney Pollack','Dustin Hoffman','English',1.0
+'Romance','Sydney Pollack','Jessica Lange','English',1.0
+'Romance','Sydney Pollack','Teri Garr','English',1.0
+'Action','Roland Emmerich','Will Smith','English',0.0
+'Action','Roland Emmerich','Bill Pullman','English',0.0
+'Action','Roland Emmerich','Jeff Goldblum','English',0.0
+'Adventure','Roland Emmerich','Will Smith','English',0.0
+'Adventure','Roland Emmerich','Bill Pullman','English',0.0
+'Adventure','Roland Emmerich','Jeff Goldblum','English',0.0
+'Sci-Fi','Roland Emmerich','Will Smith','English',0.0
+'Sci-Fi','Roland Emmerich','Bill Pullman','English',0.0
+'Sci-Fi','Roland Emmerich','Jeff Goldblum','English',0.0
+'Crime','Steven Spielberg','Leonardo DiCaprio',?,1.0
+'Crime','Steven Spielberg','Tom Hanks',?,1.0
+'Crime','Steven Spielberg','Martin Sheen',?,1.0
+'Drama','Steven Spielberg','Leonardo DiCaprio',?,1.0
+'Drama','Steven Spielberg','Tom Hanks',?,1.0
+'Drama','Steven Spielberg','Martin Sheen',?,1.0
+'Comedy','Danny Boyle','Ewan McGregor','English',0.0
+'Comedy','Danny Boyle','Jonny Lee Miller','English',0.0
+'Comedy','Danny Boyle','Ewen Bremner','English',0.0
+'Crime','Danny Boyle','Ewan McGregor','English',0.0
+'Crime','Danny Boyle','Jonny Lee Miller','English',0.0
+'Crime','Danny Boyle','Ewen Bremner','English',0.0
+'Drama','Danny Boyle','Ewan McGregor','English',0.0
+'Drama','Danny Boyle','Jonny Lee Miller','English',0.0
+'Drama','Danny Boyle','Ewen Bremner','English',0.0
+'Action','Tim Burton','Danny DeVito','English',1.0
+'Action','Tim Burton','Michael Keaton','English',1.0
+'Action','Tim Burton','Christopher Walken','English',1.0
+'Crime','Tim Burton','Danny DeVito','English',1.0
+'Crime','Tim Burton','Michael Keaton','English',1.0
+'Crime','Tim Burton','Christopher Walken','English',1.0
+'Fantasy','Tim Burton','Danny DeVito','English',1.0
+'Fantasy','Tim Burton','Michael Keaton','English',1.0
+'Fantasy','Tim Burton','Christopher Walken','English',1.0
+'Action','Ridley Scott','Russell Crowe','English',1.0
+'Action','Ridley Scott','Joaquin Phoenix','English',1.0
+'Action','Ridley Scott','Oliver Reed','English',1.0
+'Adventure','Ridley Scott','Russell Crowe','English',1.0
+'Adventure','Ridley Scott','Joaquin Phoenix','English',1.0
+'Adventure','Ridley Scott','Oliver Reed','English',1.0
+'Drama','Ridley Scott','Russell Crowe','English',1.0
+'Drama','Ridley Scott','Joaquin Phoenix','English',1.0
+'Drama','Ridley Scott','Oliver Reed','English',1.0
+'Comedy','Nora Ephron','Tom Hanks','English',1.0
+'Comedy','Nora Ephron','Meg Ryan','English',1.0
+'Comedy','Nora Ephron','Bill Pullman','English',1.0
+'Drama','Nora Ephron','Tom Hanks','English',1.0
+'Drama','Nora Ephron','Meg Ryan','English',1.0
+'Drama','Nora Ephron','Bill Pullman','English',1.0
+'Romance','Nora Ephron','Tom Hanks','English',1.0
+'Romance','Nora Ephron','Meg Ryan','English',1.0
+'Romance','Nora Ephron','Bill Pullman','English',1.0
+'Crime','Rob Reiner','Tom Cruise','English',1.0
+'Crime','Rob Reiner','Jack Nicholson','English',1.0
+'Crime','Rob Reiner','Demi Moore','English',1.0
+'Drama','Rob Reiner','Tom Cruise','English',1.0
+'Drama','Rob Reiner','Jack Nicholson','English',1.0
+'Drama','Rob Reiner','Demi Moore','English',1.0
+'Thriller','Rob Reiner','Tom Cruise','English',1.0
+'Thriller','Rob Reiner','Jack Nicholson','English',1.0
+'Thriller','Rob Reiner','Demi Moore','English',1.0
+'Comedy','Rob Reiner','Billy Crystal','English',1.0
+'Comedy','Rob Reiner','Meg Ryan','English',1.0
+'Comedy','Rob Reiner','Carrie Fisher','English',1.0
+'Romance','Rob Reiner','Billy Crystal','English',1.0
+'Romance','Rob Reiner','Meg Ryan','English',1.0
+'Romance','Rob Reiner','Carrie Fisher','English',1.0
+'Comedy','Joel Coen','William H. Macy','English',1.0
+'Comedy','Joel Coen','Frances McDormand','English',1.0
+'Comedy','Joel Coen','Steve Buscemi','English',1.0
+'Crime','Joel Coen','William H. Macy','English',1.0
+'Crime','Joel Coen','Frances McDormand','English',1.0
+'Crime','Joel Coen','Steve Buscemi','English',1.0
+'Drama','Joel Coen','William H. Macy','English',1.0
+'Drama','Joel Coen','Frances McDormand','English',1.0
+'Drama','Joel Coen','Steve Buscemi','English',1.0
+'Action','Barry Sonnenfeld','Tommy Lee Jones','English',0.0
+'Action','Barry Sonnenfeld','Will Smith','English',0.0
+'Action','Barry Sonnenfeld','Linda Fiorentino','English',0.0
+'Comedy','Barry Sonnenfeld','Tommy Lee Jones','English',0.0
+'Comedy','Barry Sonnenfeld','Will Smith','English',0.0
+'Comedy','Barry Sonnenfeld','Linda Fiorentino','English',0.0
+'Sci-Fi','Barry Sonnenfeld','Tommy Lee Jones','English',0.0
+'Sci-Fi','Barry Sonnenfeld','Will Smith','English',0.0
+'Sci-Fi','Barry Sonnenfeld','Linda Fiorentino','English',0.0
+'Action','John McTiernan','Bruce Willis','English',1.0
+'Action','John McTiernan','Bonnie Bedelia','English',1.0
+'Action','John McTiernan','Alan Rickman','English',1.0
+'Crime','John McTiernan','Bruce Willis','English',1.0
+'Crime','John McTiernan','Bonnie Bedelia','English',1.0
+'Crime','John McTiernan','Alan Rickman','English',1.0
+'Thriller','John McTiernan','Bruce Willis','English',1.0
+'Thriller','John McTiernan','Bonnie Bedelia','English',1.0
+'Thriller','John McTiernan','Alan Rickman','English',1.0
+'Comedy','Mike Judge','David Herman','English',1.0
+'Comedy','Mike Judge','Ron Livingston','English',1.0
+'Comedy','Mike Judge','Ajay Naidu','English',1.0
+'Crime','Mike Judge','David Herman','English',1.0
+'Crime','Mike Judge','Ron Livingston','English',1.0
+'Crime','Mike Judge','Ajay Naidu','English',1.0
+'Action','Phillip Noyce','Harrison Ford','English',0.0
+'Action','Phillip Noyce','Willem Dafoe','English',0.0
+'Action','Phillip Noyce','Anne Archer','English',0.0
+'Adventure','Phillip Noyce','Harrison Ford','English',0.0
+'Adventure','Phillip Noyce','Willem Dafoe','English',0.0
+'Adventure','Phillip Noyce','Anne Archer','English',0.0
+'Thriller','Phillip Noyce','Harrison Ford','English',0.0
+'Thriller','Phillip Noyce','Willem Dafoe','English',0.0
+'Thriller','Phillip Noyce','Anne Archer','English',0.0
+'Action','John Woo','Nicolas Cage','English',1.0
+'Action','John Woo','Alessandro Nivola','English',1.0
+'Action','John Woo','John Travolta','English',1.0
+'Crime','John Woo','Nicolas Cage','English',1.0
+'Crime','John Woo','Alessandro Nivola','English',1.0
+'Crime','John Woo','John Travolta','English',1.0
+'Drama','John Woo','Nicolas Cage','English',1.0
+'Drama','John Woo','Alessandro Nivola','English',1.0
+'Drama','John Woo','John Travolta','English',1.0
+'Adventure','Steven Spielberg','Richard Dreyfuss','English',0.0
+'Adventure','Steven Spielberg','FranÃ§ois Truffaut','English',0.0
+'Adventure','Steven Spielberg','Melinda Dillon','English',0.0
+'Drama','Steven Spielberg','Richard Dreyfuss','English',0.0
+'Drama','Steven Spielberg','FranÃ§ois Truffaut','English',0.0
+'Drama','Steven Spielberg','Melinda Dillon','English',0.0
+'Sci-Fi','Steven Spielberg','Richard Dreyfuss','English',0.0
+'Sci-Fi','Steven Spielberg','FranÃ§ois Truffaut','English',0.0
+'Sci-Fi','Steven Spielberg','Melinda Dillon','English',0.0
+'Action','Steven Spielberg','Harrison Ford','English',1.0
+'Action','Steven Spielberg','Sean Connery','English',1.0
+'Action','Steven Spielberg','John Rhys-Davies','English',1.0
+'Adventure','Steven Spielberg','Harrison Ford','English',1.0
+'Adventure','Steven Spielberg','Sean Connery','English',1.0
+'Adventure','Steven Spielberg','John Rhys-Davies','English',1.0
+'Drama','Robert Zemeckis','Tom Hanks','English',1.0
+'Drama','Robert Zemeckis','Chris Noth','English',1.0
+'Drama','Robert Zemeckis','Nick Searcy','English',1.0
+'Action','Doug Liman','Matt Damon','English',0.0
+'Action','Doug Liman','Franka Potente','English',0.0
+'Action','Doug Liman','Chris Cooper','English',0.0
+'Adventure','Doug Liman','Matt Damon','English',0.0
+'Adventure','Doug Liman','Franka Potente','English',0.0
+'Adventure','Doug Liman','Chris Cooper','English',0.0
+'Crime','Doug Liman','Matt Damon','English',0.0
+'Crime','Doug Liman','Franka Potente','English',0.0
+'Crime','Doug Liman','Chris Cooper','English',0.0
+'Comedy','Penny Marshall','Tom Hanks','English',1.0
+'Comedy','Penny Marshall','John Heard','English',1.0
+'Comedy','Penny Marshall','Robert Loggia','English',1.0
+'Drama','Penny Marshall','Tom Hanks','English',1.0
+'Drama','Penny Marshall','John Heard','English',1.0
+'Drama','Penny Marshall','Robert Loggia','English',1.0
+'Fantasy','Penny Marshall','Tom Hanks','English',1.0
+'Fantasy','Penny Marshall','John Heard','English',1.0
+'Fantasy','Penny Marshall','Robert Loggia','English',1.0
+'Adventure','Andrew Stanton','Albert Brooks','English',1.0
+'Adventure','Andrew Stanton','Ellen DeGeneres','English',1.0
+'Adventure','Andrew Stanton','Alexander Gould','English',1.0
+'Animation','Andrew Stanton','Albert Brooks','English',1.0
+'Animation','Andrew Stanton','Ellen DeGeneres','English',1.0
+'Animation','Andrew Stanton','Alexander Gould','English',1.0
+'Children','Andrew Stanton','Albert Brooks','English',1.0
+'Children','Andrew Stanton','Ellen DeGeneres','English',1.0
+'Children','Andrew Stanton','Alexander Gould','English',1.0
+'Action','John Woo','Delroy Lindo','English',0.0
+'Action','John Woo','Christian Slater','English',0.0
+'Action','John Woo','John Travolta','English',0.0
+'Adventure','John Woo','Delroy Lindo','English',0.0
+'Adventure','John Woo','Christian Slater','English',0.0
+'Adventure','John Woo','John Travolta','English',0.0
+'Thriller','John Woo','Delroy Lindo','English',0.0
+'Thriller','John Woo','Christian Slater','English',0.0
+'Thriller','John Woo','John Travolta','English',0.0
+'Comedy','Jim Abrahams','Robert Hays','English',1.0
+'Comedy','Jim Abrahams','Leslie Nielsen','English',1.0
+'Comedy','Jim Abrahams','Julie Hagerty','English',1.0
+'Adventure','Joel Coen','George Clooney','English',0.0
+'Adventure','Joel Coen','John Goodman','English',0.0
+'Adventure','Joel Coen','Tim Blake Nelson','English',0.0
+'Comedy','Joel Coen','George Clooney','English',0.0
+'Comedy','Joel Coen','John Goodman','English',0.0
+'Comedy','Joel Coen','Tim Blake Nelson','English',0.0
+'Crime','Joel Coen','George Clooney','English',0.0
+'Crime','Joel Coen','John Goodman','English',0.0
+'Crime','Joel Coen','Tim Blake Nelson','English',0.0
+'Drama','Robert Zemeckis','Jodie Foster','English',1.0
+'Drama','Robert Zemeckis','David Morse','English',1.0
+'Drama','Robert Zemeckis','Geoffrey Blake','English',1.0
+'Sci-Fi','Robert Zemeckis','Jodie Foster','English',1.0
+'Sci-Fi','Robert Zemeckis','David Morse','English',1.0
+'Sci-Fi','Robert Zemeckis','Geoffrey Blake','English',1.0
+'Comedy','Jonathan Lynn','Joe Pesci','English',1.0
+'Comedy','Jonathan Lynn','Ralph Macchio','English',1.0
+'Comedy','Jonathan Lynn','Marisa Tomei','English',1.0
+'Fantasy','Francis Ford Coppola','Gary Oldman','English',1.0
+'Fantasy','Francis Ford Coppola','Winona Ryder','English',1.0
+'Fantasy','Francis Ford Coppola','Anthony Hopkins','English',1.0
+'Horror','Francis Ford Coppola','Gary Oldman','English',1.0
+'Horror','Francis Ford Coppola','Winona Ryder','English',1.0
+'Horror','Francis Ford Coppola','Anthony Hopkins','English',1.0
+'Romance','Francis Ford Coppola','Gary Oldman','English',1.0
+'Romance','Francis Ford Coppola','Winona Ryder','English',1.0
+'Romance','Francis Ford Coppola','Anthony Hopkins','English',1.0
+'Crime','Francis Ford Coppola','Marlon Brando',?,1.0
+'Crime','Francis Ford Coppola','Al Pacino',?,1.0
+'Crime','Francis Ford Coppola','James Caan',?,1.0
+'Drama','Francis Ford Coppola','Marlon Brando',?,1.0
+'Drama','Francis Ford Coppola','Al Pacino',?,1.0
+'Drama','Francis Ford Coppola','James Caan',?,1.0
+'Crime','Martin Scorsese','Robert De Niro','English',1.0
+'Crime','Martin Scorsese','Cybill Shepherd','English',1.0
+'Crime','Martin Scorsese','Peter Boyle','English',1.0
+'Drama','Martin Scorsese','Robert De Niro','English',1.0
+'Drama','Martin Scorsese','Cybill Shepherd','English',1.0
+'Drama','Martin Scorsese','Peter Boyle','English',1.0
+'Thriller','Martin Scorsese','Robert De Niro','English',1.0
+'Thriller','Martin Scorsese','Cybill Shepherd','English',1.0
+'Thriller','Martin Scorsese','Peter Boyle','English',1.0
+'Drama','Rob Reiner','James Caan','English',1.0
+'Drama','Rob Reiner','Richard Farnsworth','English',1.0
+'Drama','Rob Reiner','Kathy Bates','English',1.0
+'Horror','Rob Reiner','James Caan','English',1.0
+'Horror','Rob Reiner','Richard Farnsworth','English',1.0
+'Horror','Rob Reiner','Kathy Bates','English',1.0
+'Thriller','Rob Reiner','James Caan','English',1.0
+'Thriller','Rob Reiner','Richard Farnsworth','English',1.0
+'Thriller','Rob Reiner','Kathy Bates','English',1.0
+'Action','Phillip Noyce','Sean Bean','English',0.0
+'Action','Phillip Noyce','Patrick Bergin','English',0.0
+'Action','Phillip Noyce','Harrison Ford','English',0.0
+'Thriller','Phillip Noyce','Sean Bean','English',0.0
+'Thriller','Phillip Noyce','Patrick Bergin','English',0.0
+'Thriller','Phillip Noyce','Harrison Ford','English',0.0
+'Children','Chris Columbus','Macaulay Culkin','English',1.0
+'Children','Chris Columbus','John Heard','English',1.0
+'Children','Chris Columbus','Joe Pesci','English',1.0
+'Comedy','Chris Columbus','Macaulay Culkin','English',1.0
+'Comedy','Chris Columbus','John Heard','English',1.0
+'Comedy','Chris Columbus','Joe Pesci','English',1.0
+'Comedy','Jerry Zucker','Patrick Swayze','English',1.0
+'Comedy','Jerry Zucker','Demi Moore','English',1.0
+'Comedy','Jerry Zucker','Whoopi Goldberg','English',1.0
+'Drama','Jerry Zucker','Patrick Swayze','English',1.0
+'Drama','Jerry Zucker','Demi Moore','English',1.0
+'Drama','Jerry Zucker','Whoopi Goldberg','English',1.0
+'Fantasy','Jerry Zucker','Patrick Swayze','English',1.0
+'Fantasy','Jerry Zucker','Demi Moore','English',1.0
+'Fantasy','Jerry Zucker','Whoopi Goldberg','English',1.0
+'Action','Franklin J. Schaffner','Charlton Heston','English',1.0
+'Action','Franklin J. Schaffner','Roddy McDowall','English',1.0
+'Action','Franklin J. Schaffner','Kim Hunter','English',1.0
+'Drama','Franklin J. Schaffner','Charlton Heston','English',1.0
+'Drama','Franklin J. Schaffner','Roddy McDowall','English',1.0
+'Drama','Franklin J. Schaffner','Kim Hunter','English',1.0
+'Sci-Fi','Franklin J. Schaffner','Charlton Heston','English',1.0
+'Sci-Fi','Franklin J. Schaffner','Roddy McDowall','English',1.0
+'Sci-Fi','Franklin J. Schaffner','Kim Hunter','English',1.0
+'Action','Jan de Bont','Dennis Hopper','English',1.0
+'Action','Jan de Bont','Joe Morton','English',1.0
+'Action','Jan de Bont','Keanu Reeves','English',1.0
+'Romance','Jan de Bont','Dennis Hopper','English',1.0
+'Romance','Jan de Bont','Joe Morton','English',1.0
+'Romance','Jan de Bont','Keanu Reeves','English',1.0
+'Thriller','Jan de Bont','Dennis Hopper','English',1.0
+'Thriller','Jan de Bont','Joe Morton','English',1.0
+'Thriller','Jan de Bont','Keanu Reeves','English',1.0
+'Horror','Alfred Hitchcock','Rod Taylor','English',0.0
+'Horror','Alfred Hitchcock','Tippi Hedren','English',0.0
+'Horror','Alfred Hitchcock','Suzanne Pleshette','English',0.0
+'Comedy','Tim Burton','Johnny Depp','English',1.0
+'Comedy','Tim Burton','Anthony Michael Hall','English',1.0
+'Comedy','Tim Burton','Winona Ryder','English',1.0
+'Drama','Tim Burton','Johnny Depp','English',1.0
+'Drama','Tim Burton','Anthony Michael Hall','English',1.0
+'Drama','Tim Burton','Winona Ryder','English',1.0
+'Romance','Tim Burton','Johnny Depp','English',1.0
+'Romance','Tim Burton','Anthony Michael Hall','English',1.0
+'Romance','Tim Burton','Winona Ryder','English',1.0
+'Action','James Cameron','Arnold Schwarzenegger','English',1.0
+'Action','James Cameron','Linda Hamilton','English',1.0
+'Action','James Cameron','Edward Furlong','English',1.0
+'Sci-Fi','James Cameron','Arnold Schwarzenegger','English',1.0
+'Sci-Fi','James Cameron','Linda Hamilton','English',1.0
+'Sci-Fi','James Cameron','Edward Furlong','English',1.0
+'Adventure','Kevin Costner','Kevin Costner',?,1.0
+'Adventure','Kevin Costner','Rodney A. Grant',?,1.0
+'Adventure','Kevin Costner','Graham Greene',?,1.0
+'Drama','Kevin Costner','Kevin Costner',?,1.0
+'Drama','Kevin Costner','Rodney A. Grant',?,1.0
+'Drama','Kevin Costner','Graham Greene',?,1.0
+'Western','Kevin Costner','Kevin Costner',?,1.0
+'Western','Kevin Costner','Rodney A. Grant',?,1.0
+'Western','Kevin Costner','Graham Greene',?,1.0
+'Crime','Jonathan Demme','Jodie Foster','English',1.0
+'Crime','Jonathan Demme','Anthony Hopkins','English',1.0
+'Crime','Jonathan Demme','Scott Glenn','English',1.0
+'Horror','Jonathan Demme','Jodie Foster','English',1.0
+'Horror','Jonathan Demme','Anthony Hopkins','English',1.0
+'Horror','Jonathan Demme','Scott Glenn','English',1.0
+'Thriller','Jonathan Demme','Jodie Foster','English',1.0
+'Thriller','Jonathan Demme','Anthony Hopkins','English',1.0
+'Thriller','Jonathan Demme','Scott Glenn','English',1.0
+'Comedy','Robert Zemeckis','Tom Hanks','English',1.0
+'Comedy','Robert Zemeckis','Gary Sinise','English',1.0
+'Comedy','Robert Zemeckis','Mykelti Williamson','English',1.0
+'Drama','Robert Zemeckis','Tom Hanks','English',1.0
+'Drama','Robert Zemeckis','Gary Sinise','English',1.0
+'Drama','Robert Zemeckis','Mykelti Williamson','English',1.0
+'Romance','Robert Zemeckis','Tom Hanks','English',1.0
+'Romance','Robert Zemeckis','Gary Sinise','English',1.0
+'Romance','Robert Zemeckis','Mykelti Williamson','English',1.0
+'Action','Tim Burton','Michael Keaton','English',0.0
+'Action','Tim Burton','Jack Nicholson','English',0.0
+'Action','Tim Burton','Robert Wuhl','English',0.0
+'Crime','Tim Burton','Michael Keaton','English',0.0
+'Crime','Tim Burton','Jack Nicholson','English',0.0
+'Crime','Tim Burton','Robert Wuhl','English',0.0
+'Sci-Fi','Tim Burton','Michael Keaton','English',0.0
+'Sci-Fi','Tim Burton','Jack Nicholson','English',0.0
+'Sci-Fi','Tim Burton','Robert Wuhl','English',0.0
+'Comedy','Mike Newell','Hugh Grant','English',1.0
+'Comedy','Mike Newell','John Hannah','English',1.0
+'Comedy','Mike Newell','Kristin Scott Thomas','English',1.0
+'Romance','Mike Newell','Hugh Grant','English',1.0
+'Romance','Mike Newell','John Hannah','English',1.0
+'Romance','Mike Newell','Kristin Scott Thomas','English',1.0
+'Action','Ron Howard','Mel Gibson','English',1.0
+'Action','Ron Howard','Brawley Nolte','English',1.0
+'Action','Ron Howard','Gary Sinise','English',1.0
+'Crime','Ron Howard','Mel Gibson','English',1.0
+'Crime','Ron Howard','Brawley Nolte','English',1.0
+'Crime','Ron Howard','Gary Sinise','English',1.0
+'Drama','Ron Howard','Mel Gibson','English',1.0
+'Drama','Ron Howard','Brawley Nolte','English',1.0
+'Drama','Ron Howard','Gary Sinise','English',1.0
+'Drama','M. Night Shyamalan','Haley Joel Osment','English',1.0
+'Drama','M. Night Shyamalan','Bruce Willis','English',1.0
+'Drama','M. Night Shyamalan','Toni Collette','English',1.0
+'Mystery','M. Night Shyamalan','Haley Joel Osment','English',1.0
+'Mystery','M. Night Shyamalan','Bruce Willis','English',1.0
+'Mystery','M. Night Shyamalan','Toni Collette','English',1.0
+'Thriller','M. Night Shyamalan','Haley Joel Osment','English',1.0
+'Thriller','M. Night Shyamalan','Bruce Willis','English',1.0
+'Thriller','M. Night Shyamalan','Toni Collette','English',1.0
+'Animation','David Hand','Adriana Caselotti','English',1.0
+'Animation','David Hand','Lucille La Verne','English',1.0
+'Animation','David Hand','Roy Atwell','English',1.0
+'Children','David Hand','Adriana Caselotti','English',1.0
+'Children','David Hand','Lucille La Verne','English',1.0
+'Children','David Hand','Roy Atwell','English',1.0
+'Drama','David Hand','Adriana Caselotti','English',1.0
+'Drama','David Hand','Lucille La Verne','English',1.0
+'Drama','David Hand','Roy Atwell','English',1.0
+'Comedy','Garry Marshall','Julia Roberts','English',1.0
+'Comedy','Garry Marshall','Richard Gere','English',1.0
+'Comedy','Garry Marshall','Jason Alexander','English',1.0
+'Romance','Garry Marshall','Julia Roberts','English',1.0
+'Romance','Garry Marshall','Richard Gere','English',1.0
+'Romance','Garry Marshall','Jason Alexander','English',1.0
+'Comedy','John Landis','Dan Aykroyd','English',1.0
+'Comedy','John Landis','Eddie Murphy','English',1.0
+'Comedy','John Landis','Don Ameche','English',1.0
+'Action','George Lucas','Hayden Christensen','English',1.0
+'Action','George Lucas','Christopher Lee','English',1.0
+'Action','George Lucas','Ewan McGregor','English',1.0
+'Adventure','George Lucas','Hayden Christensen','English',1.0
+'Adventure','George Lucas','Christopher Lee','English',1.0
+'Adventure','George Lucas','Ewan McGregor','English',1.0
+'IMAX','George Lucas','Hayden Christensen','English',1.0
+'IMAX','George Lucas','Christopher Lee','English',1.0
+'IMAX','George Lucas','Ewan McGregor','English',1.0
+'Drama','M. Night Shyamalan','Spencer Treat Clark','English',1.0
+'Drama','M. Night Shyamalan','Samuel L. Jackson','English',1.0
+'Drama','M. Night Shyamalan','Bruce Willis','English',1.0
+'Sci-Fi','M. Night Shyamalan','Spencer Treat Clark','English',1.0
+'Sci-Fi','M. Night Shyamalan','Samuel L. Jackson','English',1.0
+'Sci-Fi','M. Night Shyamalan','Bruce Willis','English',1.0
+'Thriller','M. Night Shyamalan','Spencer Treat Clark','English',1.0
+'Thriller','M. Night Shyamalan','Samuel L. Jackson','English',1.0
+'Thriller','M. Night Shyamalan','Bruce Willis','English',1.0
+'Action','Simon West','Nicolas Cage','English',1.0
+'Action','Simon West','John Cusack','English',1.0
+'Action','Simon West','John Malkovich','English',1.0
+'Adventure','Simon West','Nicolas Cage','English',1.0
+'Adventure','Simon West','John Cusack','English',1.0
+'Adventure','Simon West','John Malkovich','English',1.0
+'Thriller','Simon West','Nicolas Cage','English',1.0
+'Thriller','Simon West','John Cusack','English',1.0
+'Thriller','Simon West','John Malkovich','English',1.0
+'Crime','Francis Ford Coppola','Al Pacino',?,1.0
+'Crime','Francis Ford Coppola','Robert Duvall',?,1.0
+'Crime','Francis Ford Coppola','Diane Keaton',?,1.0
+'Drama','Francis Ford Coppola','Al Pacino',?,1.0
+'Drama','Francis Ford Coppola','Robert Duvall',?,1.0
+'Drama','Francis Ford Coppola','Diane Keaton',?,1.0
+'Action','John Landis','Dan Aykroyd','English',0.0
+'Action','John Landis','John Belushi','English',0.0
+'Action','John Landis','James Brown','English',0.0
+'Comedy','John Landis','Dan Aykroyd','English',0.0
+'Comedy','John Landis','John Belushi','English',0.0
+'Comedy','John Landis','James Brown','English',0.0
+'Musical','John Landis','Dan Aykroyd','English',0.0
+'Musical','John Landis','John Belushi','English',0.0
+'Musical','John Landis','James Brown','English',0.0
+'Drama','Stanley Kubrick','Adam Baldwin','English',1.0
+'Drama','Stanley Kubrick','Vincent DOnofrio','English',1.0
+'Drama','Stanley Kubrick','R. Lee Ermey','English',1.0
+'War','Stanley Kubrick','Adam Baldwin','English',1.0
+'War','Stanley Kubrick','Vincent DOnofrio','English',1.0
+'War','Stanley Kubrick','R. Lee Ermey','English',1.0
+'Comedy','Jay Roach','Robert De Niro','English',1.0
+'Comedy','Jay Roach','Ben Stiller','English',1.0
+'Comedy','Jay Roach','Blythe Danner','English',1.0
+'Drama','Paul Thomas Anderson','Tom Cruise','English',1.0
+'Drama','Paul Thomas Anderson','Philip Baker Hall','English',1.0
+'Drama','Paul Thomas Anderson','Philip Seymour Hoffman','English',1.0
+'Horror','Alfred Hitchcock','Anthony Perkins','English',1.0
+'Horror','Alfred Hitchcock','Janet Leigh','English',1.0
+'Horror','Alfred Hitchcock','Vera Miles','English',1.0
+'Thriller','Alfred Hitchcock','Anthony Perkins','English',1.0
+'Thriller','Alfred Hitchcock','Janet Leigh','English',1.0
+'Thriller','Alfred Hitchcock','Vera Miles','English',1.0
+'Drama','Milos Forman','F. Murray Abraham','English',0.0
+'Drama','Milos Forman','Simon Callow','English',0.0
+'Drama','Milos Forman','Tom Hulce','English',0.0
+'Drama','Sam Mendes','Kevin Spacey','English',1.0
+'Drama','Sam Mendes','Annette Bening','English',1.0
+'Drama','Sam Mendes','Thora Birch','English',1.0
+'Comedy','John Landis','John Belushi','English',1.0
+'Comedy','John Landis','Stephen Furst','English',1.0
+'Comedy','John Landis','Tom Hulce','English',1.0
+'Comedy','Gary Ross','Tobey Maguire','English',1.0
+'Comedy','Gary Ross','Reese Witherspoon','English',1.0
+'Comedy','Gary Ross','William H. Macy','English',1.0
+'Drama','Gary Ross','Tobey Maguire','English',1.0
+'Drama','Gary Ross','Reese Witherspoon','English',1.0
+'Drama','Gary Ross','William H. Macy','English',1.0
+'Fantasy','Gary Ross','Tobey Maguire','English',1.0
+'Fantasy','Gary Ross','Reese Witherspoon','English',1.0
+'Fantasy','Gary Ross','William H. Macy','English',1.0
+'Adventure','Ridley Scott','Harvey Keitel','English',1.0
+'Adventure','Ridley Scott','Michael Madsen','English',1.0
+'Adventure','Ridley Scott','Geena Davis','English',1.0
+'Crime','Ridley Scott','Harvey Keitel','English',1.0
+'Crime','Ridley Scott','Michael Madsen','English',1.0
+'Crime','Ridley Scott','Geena Davis','English',1.0
+'Drama','Ridley Scott','Harvey Keitel','English',1.0
+'Drama','Ridley Scott','Michael Madsen','English',1.0
+'Drama','Ridley Scott','Geena Davis','English',1.0
+'Crime','Frank Darabont','Michael Clarke Duncan','English',1.0
+'Crime','Frank Darabont','Tom Hanks','English',1.0
+'Crime','Frank Darabont','David Morse','English',1.0
+'Drama','Frank Darabont','Michael Clarke Duncan','English',1.0
+'Drama','Frank Darabont','Tom Hanks','English',1.0
+'Drama','Frank Darabont','David Morse','English',1.0
+'Drama','Peter Weir','Josh Charles','English',0.0
+'Drama','Peter Weir','Ethan Hawke','English',0.0
+'Drama','Peter Weir','Robert Sean Leonard','English',0.0
+'Comedy','Mike Nichols','Dustin Hoffman','English',1.0
+'Comedy','Mike Nichols','Anne Bancroft','English',1.0
+'Comedy','Mike Nichols','Katharine Ross','English',1.0
+'Drama','Mike Nichols','Dustin Hoffman','English',1.0
+'Drama','Mike Nichols','Anne Bancroft','English',1.0
+'Drama','Mike Nichols','Katharine Ross','English',1.0
+'Romance','Mike Nichols','Dustin Hoffman','English',1.0
+'Romance','Mike Nichols','Anne Bancroft','English',1.0
+'Romance','Mike Nichols','Katharine Ross','English',1.0
+'Action','James Cameron','Michael Biehn','English',1.0
+'Action','James Cameron','Arnold Schwarzenegger','English',1.0
+'Action','James Cameron','Paul Winfield','English',1.0
+'Sci-Fi','James Cameron','Michael Biehn','English',1.0
+'Sci-Fi','James Cameron','Arnold Schwarzenegger','English',1.0
+'Sci-Fi','James Cameron','Paul Winfield','English',1.0
+'Thriller','James Cameron','Michael Biehn','English',1.0
+'Thriller','James Cameron','Arnold Schwarzenegger','English',1.0
+'Thriller','James Cameron','Paul Winfield','English',1.0
+'Drama','Ron Howard','Russell Crowe','English',1.0
+'Drama','Ron Howard','Jennifer Connelly','English',1.0
+'Drama','Ron Howard','Ed Harris','English',1.0
+'Romance','Ron Howard','Russell Crowe','English',1.0
+'Romance','Ron Howard','Jennifer Connelly','English',1.0
+'Romance','Ron Howard','Ed Harris','English',1.0
+'Action','Steven Spielberg','Tom Hanks',?,1.0
+'Action','Steven Spielberg','Tom Sizemore',?,1.0
+'Action','Steven Spielberg','Edward Burns',?,1.0
+'Drama','Steven Spielberg','Tom Hanks',?,1.0
+'Drama','Steven Spielberg','Tom Sizemore',?,1.0
+'Drama','Steven Spielberg','Edward Burns',?,1.0
+'War','Steven Spielberg','Tom Hanks',?,1.0
+'War','Steven Spielberg','Tom Sizemore',?,1.0
+'War','Steven Spielberg','Edward Burns',?,1.0
+'Adventure','Ron Howard','Tom Hanks','English',0.0
+'Adventure','Ron Howard','Kevin Bacon','English',0.0
+'Adventure','Ron Howard','Bill Paxton','English',0.0
+'Drama','Ron Howard','Tom Hanks','English',0.0
+'Drama','Ron Howard','Kevin Bacon','English',0.0
+'Drama','Ron Howard','Bill Paxton','English',0.0
+'IMAX','Ron Howard','Tom Hanks','English',0.0
+'IMAX','Ron Howard','Kevin Bacon','English',0.0
+'IMAX','Ron Howard','Bill Paxton','English',0.0
+'Action','Richard Donner','Mel Gibson','English',1.0
+'Action','Richard Donner','Danny Glover','English',1.0
+'Action','Richard Donner','Gary Busey','English',1.0
+'Comedy','Richard Donner','Mel Gibson','English',1.0
+'Comedy','Richard Donner','Danny Glover','English',1.0
+'Comedy','Richard Donner','Gary Busey','English',1.0
+'Crime','Richard Donner','Mel Gibson','English',1.0
+'Crime','Richard Donner','Danny Glover','English',1.0
+'Crime','Richard Donner','Gary Busey','English',1.0
+'Adventure','Stanley Kubrick','Keir Dullea',?,1.0
+'Adventure','Stanley Kubrick','Gary Lockwood',?,1.0
+'Adventure','Stanley Kubrick','William Sylvester',?,1.0
+'Drama','Stanley Kubrick','Keir Dullea',?,1.0
+'Drama','Stanley Kubrick','Gary Lockwood',?,1.0
+'Drama','Stanley Kubrick','William Sylvester',?,1.0
+'Sci-Fi','Stanley Kubrick','Keir Dullea',?,1.0
+'Sci-Fi','Stanley Kubrick','Gary Lockwood',?,1.0
+'Sci-Fi','Stanley Kubrick','William Sylvester',?,1.0
+'Action','Brian De Palma','Tom Cruise','English',1.0
+'Action','Brian De Palma','Henry Czerny','English',1.0
+'Action','Brian De Palma','Jon Voight','English',1.0
+'Adventure','Brian De Palma','Tom Cruise','English',1.0
+'Adventure','Brian De Palma','Henry Czerny','English',1.0
+'Adventure','Brian De Palma','Jon Voight','English',1.0
+'Mystery','Brian De Palma','Tom Cruise','English',1.0
+'Mystery','Brian De Palma','Henry Czerny','English',1.0
+'Mystery','Brian De Palma','Jon Voight','English',1.0
+'Drama','Orson Welles','Orson Welles','English',1.0
+'Drama','Orson Welles','Joseph Cotten','English',1.0
+'Drama','Orson Welles','Dorothy Comingore','English',1.0
+'Mystery','Orson Welles','Orson Welles','English',1.0
+'Mystery','Orson Welles','Joseph Cotten','English',1.0
+'Mystery','Orson Welles','Dorothy Comingore','English',1.0
+'Adventure','Victor Fleming','Judy Garland','English',1.0
+'Adventure','Victor Fleming','Frank Morgan','English',1.0
+'Adventure','Victor Fleming','Ray Bolger','English',1.0
+'Children','Victor Fleming','Judy Garland','English',1.0
+'Children','Victor Fleming','Frank Morgan','English',1.0
+'Children','Victor Fleming','Ray Bolger','English',1.0
+'Fantasy','Victor Fleming','Judy Garland','English',1.0
+'Fantasy','Victor Fleming','Frank Morgan','English',1.0
+'Fantasy','Victor Fleming','Ray Bolger','English',1.0
+'Crime','Christopher Nolan','Guy Pearce','English',1.0
+'Crime','Christopher Nolan','Carrie-Anne Moss','English',1.0
+'Crime','Christopher Nolan','Joe Pantoliano','English',1.0
+'Drama','Christopher Nolan','Guy Pearce','English',1.0
+'Drama','Christopher Nolan','Carrie-Anne Moss','English',1.0
+'Drama','Christopher Nolan','Joe Pantoliano','English',1.0
+'Mystery','Christopher Nolan','Guy Pearce','English',1.0
+'Mystery','Christopher Nolan','Carrie-Anne Moss','English',1.0
+'Mystery','Christopher Nolan','Joe Pantoliano','English',1.0
+'Action','Renny Harlin','John Lithgow','English',0.0
+'Action','Renny Harlin','Michael Rooker','English',0.0
+'Action','Renny Harlin','Sylvester Stallone','English',0.0
+'Adventure','Renny Harlin','John Lithgow','English',0.0
+'Adventure','Renny Harlin','Michael Rooker','English',0.0
+'Adventure','Renny Harlin','Sylvester Stallone','English',0.0
+'Thriller','Renny Harlin','John Lithgow','English',0.0
+'Thriller','Renny Harlin','Michael Rooker','English',0.0
+'Thriller','Renny Harlin','Sylvester Stallone','English',0.0
+'Adventure','Rob Reiner','Corey Feldman','English',1.0
+'Adventure','Rob Reiner','River Phoenix','English',1.0
+'Adventure','Rob Reiner','Wil Wheaton','English',1.0
+'Drama','Rob Reiner','Corey Feldman','English',1.0
+'Drama','Rob Reiner','River Phoenix','English',1.0
+'Drama','Rob Reiner','Wil Wheaton','English',1.0
+'Horror','Stanley Kubrick','Jack Nicholson','English',1.0
+'Horror','Stanley Kubrick','Shelley Duvall','English',1.0
+'Horror','Stanley Kubrick','Danny Lloyd','English',1.0
+'Thriller','Stanley Kubrick','Jack Nicholson','English',1.0
+'Thriller','Stanley Kubrick','Shelley Duvall','English',1.0
+'Thriller','Stanley Kubrick','Danny Lloyd','English',1.0
+'Action','John McTiernan','Bruce Willis','English',1.0
+'Action','John McTiernan','Jeremy Irons','English',1.0
+'Action','John McTiernan','Samuel L. Jackson','English',1.0
+'Crime','John McTiernan','Bruce Willis','English',1.0
+'Crime','John McTiernan','Jeremy Irons','English',1.0
+'Crime','John McTiernan','Samuel L. Jackson','English',1.0
+'Thriller','John McTiernan','Bruce Willis','English',1.0
+'Thriller','John McTiernan','Jeremy Irons','English',1.0
+'Thriller','John McTiernan','Samuel L. Jackson','English',1.0
+'Drama','Michael Curtiz','Humphrey Bogart','English',1.0
+'Drama','Michael Curtiz','Ingrid Bergman','English',1.0
+'Drama','Michael Curtiz','Paul Henreid','English',1.0
+'Romance','Michael Curtiz','Humphrey Bogart','English',1.0
+'Romance','Michael Curtiz','Ingrid Bergman','English',1.0
+'Romance','Michael Curtiz','Paul Henreid','English',1.0
+'Action','Tony Scott','Will Smith','English',1.0
+'Action','Tony Scott','Gene Hackman','English',1.0
+'Action','Tony Scott','Jon Voight','English',1.0
+'Thriller','Tony Scott','Will Smith','English',1.0
+'Thriller','Tony Scott','Gene Hackman','English',1.0
+'Thriller','Tony Scott','Jon Voight','English',1.0
+'Adventure','Robert Zemeckis','Michael J. Fox','English',0.0
+'Adventure','Robert Zemeckis','Crispin Glover','English',0.0
+'Adventure','Robert Zemeckis','Christopher Lloyd','English',0.0
+'Comedy','Robert Zemeckis','Michael J. Fox','English',0.0
+'Comedy','Robert Zemeckis','Crispin Glover','English',0.0
+'Comedy','Robert Zemeckis','Christopher Lloyd','English',0.0
+'Sci-Fi','Robert Zemeckis','Michael J. Fox','English',0.0
+'Sci-Fi','Robert Zemeckis','Crispin Glover','English',0.0
+'Sci-Fi','Robert Zemeckis','Christopher Lloyd','English',0.0
+'Action','Alfred Hitchcock','Cary Grant','English',1.0
+'Action','Alfred Hitchcock','Eva Marie Saint','English',1.0
+'Action','Alfred Hitchcock','James Mason','English',1.0
+'Adventure','Alfred Hitchcock','Cary Grant','English',1.0
+'Adventure','Alfred Hitchcock','Eva Marie Saint','English',1.0
+'Adventure','Alfred Hitchcock','James Mason','English',1.0
+'Mystery','Alfred Hitchcock','Cary Grant','English',1.0
+'Mystery','Alfred Hitchcock','Eva Marie Saint','English',1.0
+'Mystery','Alfred Hitchcock','James Mason','English',1.0
+'Comedy','Barry Levinson','Robin Williams','English',1.0
+'Comedy','Barry Levinson','Forest Whitaker','English',1.0
+'Comedy','Barry Levinson','Tung Thanh Tran','English',1.0
+'Drama','Barry Levinson','Robin Williams','English',1.0
+'Drama','Barry Levinson','Forest Whitaker','English',1.0
+'Drama','Barry Levinson','Tung Thanh Tran','English',1.0
+'War','Barry Levinson','Robin Williams','English',1.0
+'War','Barry Levinson','Forest Whitaker','English',1.0
+'War','Barry Levinson','Tung Thanh Tran','English',1.0
+'Drama','Anthony Minghella','Matt Damon','English',1.0
+'Drama','Anthony Minghella','Jude Law','English',1.0
+'Drama','Anthony Minghella','Cate Blanchett','English',1.0
+'Mystery','Anthony Minghella','Matt Damon','English',1.0
+'Mystery','Anthony Minghella','Jude Law','English',1.0
+'Mystery','Anthony Minghella','Cate Blanchett','English',1.0
+'Thriller','Anthony Minghella','Matt Damon','English',1.0
+'Thriller','Anthony Minghella','Jude Law','English',1.0
+'Thriller','Anthony Minghella','Cate Blanchett','English',1.0
+'Mystery','Alfred Hitchcock','James Stewart','English',1.0
+'Mystery','Alfred Hitchcock','Grace Kelly','English',1.0
+'Mystery','Alfred Hitchcock','Thelma Ritter','English',1.0
+'Thriller','Alfred Hitchcock','James Stewart','English',1.0
+'Thriller','Alfred Hitchcock','Grace Kelly','English',1.0
+'Thriller','Alfred Hitchcock','Thelma Ritter','English',1.0
+'Drama','Alfred Hitchcock','James Stewart','English',1.0
+'Drama','Alfred Hitchcock','Barbara Bel Geddes','English',1.0
+'Drama','Alfred Hitchcock','Kim Novak','English',1.0
+'Mystery','Alfred Hitchcock','James Stewart','English',1.0
+'Mystery','Alfred Hitchcock','Barbara Bel Geddes','English',1.0
+'Mystery','Alfred Hitchcock','Kim Novak','English',1.0
+'Romance','Alfred Hitchcock','James Stewart','English',1.0
+'Romance','Alfred Hitchcock','Barbara Bel Geddes','English',1.0
+'Romance','Alfred Hitchcock','Kim Novak','English',1.0
+'Horror','Tobe Hooper','JoBeth Williams','English',1.0
+'Horror','Tobe Hooper','Craig T. Nelson','English',1.0
+'Horror','Tobe Hooper','Dominique Dunne','English',1.0
+'Thriller','Tobe Hooper','JoBeth Williams','English',1.0
+'Thriller','Tobe Hooper','Craig T. Nelson','English',1.0
+'Thriller','Tobe Hooper','Dominique Dunne','English',1.0
+'Horror','William Friedkin','Ellen Burstyn',?,1.0
+'Horror','William Friedkin','Linda Blair',?,1.0
+'Horror','William Friedkin','Max von Sydow',?,1.0
+'Mystery','William Friedkin','Ellen Burstyn',?,1.0
+'Mystery','William Friedkin','Linda Blair',?,1.0
+'Mystery','William Friedkin','Max von Sydow',?,1.0
+'Comedy','Sharon Maguire','RenÃ©e Zellweger','English',1.0
+'Comedy','Sharon Maguire','Hugh Grant','English',1.0
+'Comedy','Sharon Maguire','Colin Firth','English',1.0
+'Drama','Sharon Maguire','RenÃ©e Zellweger','English',1.0
+'Drama','Sharon Maguire','Hugh Grant','English',1.0
+'Drama','Sharon Maguire','Colin Firth','English',1.0
+'Romance','Sharon Maguire','RenÃ©e Zellweger','English',1.0
+'Romance','Sharon Maguire','Hugh Grant','English',1.0
+'Romance','Sharon Maguire','Colin Firth','English',1.0
+'Action','Andy Wachowski','Laurence Fishburne','English',1.0
+'Action','Andy Wachowski','Keanu Reeves','English',1.0
+'Action','Andy Wachowski','Hugo Weaving','English',1.0
+'Sci-Fi','Andy Wachowski','Laurence Fishburne','English',1.0
+'Sci-Fi','Andy Wachowski','Keanu Reeves','English',1.0
+'Sci-Fi','Andy Wachowski','Hugo Weaving','English',1.0
+'Thriller','Andy Wachowski','Laurence Fishburne','English',1.0
+'Thriller','Andy Wachowski','Keanu Reeves','English',1.0
+'Thriller','Andy Wachowski','Hugo Weaving','English',1.0
+'Action','Paul Verhoeven','Arnold Schwarzenegger','English',1.0
+'Action','Paul Verhoeven','Ronny Cox','English',1.0
+'Action','Paul Verhoeven','Sharon Stone','English',1.0
+'Adventure','Paul Verhoeven','Arnold Schwarzenegger','English',1.0
+'Adventure','Paul Verhoeven','Ronny Cox','English',1.0
+'Adventure','Paul Verhoeven','Sharon Stone','English',1.0
+'Sci-Fi','Paul Verhoeven','Arnold Schwarzenegger','English',1.0
+'Sci-Fi','Paul Verhoeven','Ronny Cox','English',1.0
+'Sci-Fi','Paul Verhoeven','Sharon Stone','English',1.0
+'Comedy','John Hughes','Emilio Estevez','English',1.0
+'Comedy','John Hughes','Anthony Michael Hall','English',1.0
+'Comedy','John Hughes','Molly Ringwald','English',1.0
+'Drama','John Hughes','Emilio Estevez','English',1.0
+'Drama','John Hughes','Anthony Michael Hall','English',1.0
+'Drama','John Hughes','Molly Ringwald','English',1.0
+'Action','Wolfgang Petersen','Clint Eastwood','English',1.0
+'Action','Wolfgang Petersen','John Malkovich','English',1.0
+'Action','Wolfgang Petersen','Dylan McDermott','English',1.0
+'Thriller','Wolfgang Petersen','Clint Eastwood','English',1.0
+'Thriller','Wolfgang Petersen','John Malkovich','English',1.0
+'Thriller','Wolfgang Petersen','Dylan McDermott','English',1.0
+'Comedy','Stanley Kubrick','Peter Sellers','English',0.0
+'Comedy','Stanley Kubrick','George C. Scott','English',0.0
+'Comedy','Stanley Kubrick','Sterling Hayden','English',0.0
+'War','Stanley Kubrick','Peter Sellers','English',0.0
+'War','Stanley Kubrick','George C. Scott','English',0.0
+'War','Stanley Kubrick','Sterling Hayden','English',0.0
+'Action','Jan de Bont','Helen Hunt','English',0.0
+'Action','Jan de Bont','Bill Paxton','English',0.0
+'Action','Jan de Bont','Cary Elwes','English',0.0
+'Adventure','Jan de Bont','Helen Hunt','English',0.0
+'Adventure','Jan de Bont','Bill Paxton','English',0.0
+'Adventure','Jan de Bont','Cary Elwes','English',0.0
+'Romance','Jan de Bont','Helen Hunt','English',0.0
+'Romance','Jan de Bont','Bill Paxton','English',0.0
+'Romance','Jan de Bont','Cary Elwes','English',0.0
+'Drama','Gus Van Sant','Ben Affleck','English',1.0
+'Drama','Gus Van Sant','Matt Damon','English',1.0
+'Drama','Gus Van Sant','Stellan SkarsgÃ¥rd','English',1.0
+'Romance','Gus Van Sant','Ben Affleck','English',1.0
+'Romance','Gus Van Sant','Matt Damon','English',1.0
+'Romance','Gus Van Sant','Stellan SkarsgÃ¥rd','English',1.0
+'Fantasy','Tim Burton','Johnny Depp','English',1.0
+'Fantasy','Tim Burton','Michael Gambon','English',1.0
+'Fantasy','Tim Burton','Christina Ricci','English',1.0
+'Horror','Tim Burton','Johnny Depp','English',1.0
+'Horror','Tim Burton','Michael Gambon','English',1.0
+'Horror','Tim Burton','Christina Ricci','English',1.0
+'Mystery','Tim Burton','Johnny Depp','English',1.0
+'Mystery','Tim Burton','Michael Gambon','English',1.0
+'Mystery','Tim Burton','Christina Ricci','English',1.0
+'Drama','Cameron Crowe','Billy Crudup','English',1.0
+'Drama','Cameron Crowe','Frances McDormand','English',1.0
+'Drama','Cameron Crowe','Kate Hudson','English',1.0
+'Thriller','Andrew Davis','Harrison Ford','English',1.0
+'Thriller','Andrew Davis','Tommy Lee Jones','English',1.0
+'Thriller','Andrew Davis','Julianne Moore','English',1.0
+'Action','Steven Spielberg','Harrison Ford','English',1.0
+'Action','Steven Spielberg','Amrish Puri','English',1.0
+'Action','Steven Spielberg','Roshan Seth','English',1.0
+'Adventure','Steven Spielberg','Harrison Ford','English',1.0
+'Adventure','Steven Spielberg','Amrish Puri','English',1.0
+'Adventure','Steven Spielberg','Roshan Seth','English',1.0
+'Fantasy','Steven Spielberg','Harrison Ford','English',1.0
+'Fantasy','Steven Spielberg','Amrish Puri','English',1.0
+'Fantasy','Steven Spielberg','Roshan Seth','English',1.0
+'Drama','John G. Avildsen','Sylvester Stallone','English',0.0
+'Drama','John G. Avildsen','Carl Weathers','English',0.0
+'Drama','John G. Avildsen','Burt Young','English',0.0
+'Drama','Sydney Pollack','Tom Cruise','English',0.0
+'Drama','Sydney Pollack','Gene Hackman','English',0.0
+'Drama','Sydney Pollack','Hal Holbrook','English',0.0
+'Thriller','Sydney Pollack','Tom Cruise','English',0.0
+'Thriller','Sydney Pollack','Gene Hackman','English',0.0
+'Thriller','Sydney Pollack','Hal Holbrook','English',0.0
+'Drama','Barry Levinson','Tom Cruise','English',1.0
+'Drama','Barry Levinson','Dustin Hoffman','English',1.0
+'Drama','Barry Levinson','Gerald R. Molen','English',1.0
+'Drama','James Cameron','Leonardo DiCaprio','English',1.0
+'Drama','James Cameron','Kate Winslet','English',1.0
+'Drama','James Cameron','Billy Zane','English',1.0
+'Romance','James Cameron','Leonardo DiCaprio','English',1.0
+'Romance','James Cameron','Kate Winslet','English',1.0
+'Romance','James Cameron','Billy Zane','English',1.0
+'Drama','Jonathan Demme','Tom Hanks','English',1.0
+'Drama','Jonathan Demme','Denzel Washington','English',1.0
+'Drama','Jonathan Demme','Jason Robards','English',1.0
+'Action','Richard Donner','Christopher Reeve','English',1.0
+'Action','Richard Donner','Marlon Brando','English',1.0
+'Action','Richard Donner','Gene Hackman','English',1.0
+'Adventure','Richard Donner','Christopher Reeve','English',1.0
+'Adventure','Richard Donner','Marlon Brando','English',1.0
+'Adventure','Richard Donner','Gene Hackman','English',1.0
+'Sci-Fi','Richard Donner','Christopher Reeve','English',1.0
+'Sci-Fi','Richard Donner','Marlon Brando','English',1.0
+'Sci-Fi','Richard Donner','Gene Hackman','English',1.0
+'Comedy','Tim Burton','Johnny Depp','English',1.0
+'Comedy','Tim Burton','Martin Landau','English',1.0
+'Comedy','Tim Burton','Patricia Arquette','English',1.0
+'Drama','Tim Burton','Johnny Depp','English',1.0
+'Drama','Tim Burton','Martin Landau','English',1.0
+'Drama','Tim Burton','Patricia Arquette','English',1.0
+'Action','David O. Russell','George Clooney','English',1.0
+'Action','David O. Russell','Ice Cube','English',1.0
+'Action','David O. Russell','Spike Jonze','English',1.0
+'Adventure','David O. Russell','George Clooney','English',1.0
+'Adventure','David O. Russell','Ice Cube','English',1.0
+'Adventure','David O. Russell','Spike Jonze','English',1.0
+'Comedy','David O. Russell','George Clooney','English',1.0
+'Comedy','David O. Russell','Ice Cube','English',1.0
+'Comedy','David O. Russell','Spike Jonze','English',1.0
+'Comedy','Chris Columbus','Robin Williams','English',1.0
+'Comedy','Chris Columbus','Sally Field','English',1.0
+'Comedy','Chris Columbus','Pierce Brosnan','English',1.0
+'Drama','Chris Columbus','Robin Williams','English',1.0
+'Drama','Chris Columbus','Sally Field','English',1.0
+'Drama','Chris Columbus','Pierce Brosnan','English',1.0
+'Drama','Milos Forman','Jack Nicholson','English',1.0
+'Drama','Milos Forman','Michael Berryman','English',1.0
+'Drama','Milos Forman','Peter Brocco','English',1.0
+'Drama','Paul Thomas Anderson','Burt Reynolds','English',1.0
+'Drama','Paul Thomas Anderson','Mark Wahlberg','English',1.0
+'Drama','Paul Thomas Anderson','Don Cheadle','English',1.0
+'Action','Steven Spielberg','Harrison Ford','English',1.0
+'Action','Steven Spielberg','Karen Allen','English',1.0
+'Action','Steven Spielberg','Paul Freeman','English',1.0
+'Adventure','Steven Spielberg','Harrison Ford','English',1.0
+'Adventure','Steven Spielberg','Karen Allen','English',1.0
+'Adventure','Steven Spielberg','Paul Freeman','English',1.0
+'Drama','Peter Weir','Harrison Ford','English',1.0
+'Drama','Peter Weir','Kelly McGillis','English',1.0
+'Drama','Peter Weir','Lukas Haas','English',1.0
+'Romance','Peter Weir','Harrison Ford','English',1.0
+'Romance','Peter Weir','Kelly McGillis','English',1.0
+'Romance','Peter Weir','Lukas Haas','English',1.0
+'Thriller','Peter Weir','Harrison Ford','English',1.0
+'Thriller','Peter Weir','Kelly McGillis','English',1.0
+'Thriller','Peter Weir','Lukas Haas','English',1.0
+'Action','Irvin Kershner','Mark Hamill','English',1.0
+'Action','Irvin Kershner','Harrison Ford','English',1.0
+'Action','Irvin Kershner','Carrie Fisher','English',1.0
+'Adventure','Irvin Kershner','Mark Hamill','English',1.0
+'Adventure','Irvin Kershner','Harrison Ford','English',1.0
+'Adventure','Irvin Kershner','Carrie Fisher','English',1.0
+'Sci-Fi','Irvin Kershner','Mark Hamill','English',1.0
+'Sci-Fi','Irvin Kershner','Harrison Ford','English',1.0
+'Sci-Fi','Irvin Kershner','Carrie Fisher','English',1.0
+'Drama','John G. Avildsen','Martin Kove','English',0.0
+'Drama','John G. Avildsen','Ralph Macchio','English',0.0
+'Drama','John G. Avildsen','Pat Morita','English',0.0
+'Action','James Cameron','Michael Biehn','English',0.0
+'Action','James Cameron','Lance Henriksen','English',0.0
+'Action','James Cameron','Paul Reiser','English',0.0
+'Horror','James Cameron','Michael Biehn','English',0.0
+'Horror','James Cameron','Lance Henriksen','English',0.0
+'Horror','James Cameron','Paul Reiser','English',0.0
+'Sci-Fi','James Cameron','Michael Biehn','English',0.0
+'Sci-Fi','James Cameron','Lance Henriksen','English',0.0
+'Sci-Fi','James Cameron','Paul Reiser','English',0.0
+'Drama','Neil Jordan','Tom Cruise','English',1.0
+'Drama','Neil Jordan','Brad Pitt','English',1.0
+'Drama','Neil Jordan','Kirsten Dunst','English',1.0
+'Horror','Neil Jordan','Tom Cruise','English',1.0
+'Horror','Neil Jordan','Brad Pitt','English',1.0
+'Horror','Neil Jordan','Kirsten Dunst','English',1.0
+'Crime','Stanley Kubrick','Malcolm McDowell','English',1.0
+'Crime','Stanley Kubrick','Patrick Magee','English',1.0
+'Crime','Stanley Kubrick','Michael Bates','English',1.0
+'Drama','Stanley Kubrick','Malcolm McDowell','English',1.0
+'Drama','Stanley Kubrick','Patrick Magee','English',1.0
+'Drama','Stanley Kubrick','Michael Bates','English',1.0
+'Sci-Fi','Stanley Kubrick','Malcolm McDowell','English',1.0
+'Sci-Fi','Stanley Kubrick','Patrick Magee','English',1.0
+'Sci-Fi','Stanley Kubrick','Michael Bates','English',1.0
+'Action','Michael Bay','Sean Connery','English',1.0
+'Action','Michael Bay','Nicolas Cage','English',1.0
+'Action','Michael Bay','Ed Harris','English',1.0
+'Adventure','Michael Bay','Sean Connery','English',1.0
+'Adventure','Michael Bay','Nicolas Cage','English',1.0
+'Adventure','Michael Bay','Ed Harris','English',1.0
+'Thriller','Michael Bay','Sean Connery','English',1.0
+'Thriller','Michael Bay','Nicolas Cage','English',1.0
+'Thriller','Michael Bay','Ed Harris','English',1.0
+'Drama','Peter Weir','Jim Carrey','English',1.0
+'Drama','Peter Weir','Noah Emmerich','English',1.0
+'Drama','Peter Weir','Ed Harris','English',1.0
+'Action','Richard Marquand','Harrison Ford','English',1.0
+'Action','Richard Marquand','Mark Hamill','English',1.0
+'Action','Richard Marquand','Billy Dee Williams','English',1.0
+'Adventure','Richard Marquand','Harrison Ford','English',1.0
+'Adventure','Richard Marquand','Mark Hamill','English',1.0
+'Adventure','Richard Marquand','Billy Dee Williams','English',1.0
+'Sci-Fi','Richard Marquand','Harrison Ford','English',1.0
+'Sci-Fi','Richard Marquand','Mark Hamill','English',1.0
+'Sci-Fi','Richard Marquand','Billy Dee Williams','English',1.0
+'Action','Francis Ford Coppola','Marlon Brando','English',1.0
+'Action','Francis Ford Coppola','Robert Duvall','English',1.0
+'Action','Francis Ford Coppola','Frederic Forrest','English',1.0
+'Drama','Francis Ford Coppola','Marlon Brando','English',1.0
+'Drama','Francis Ford Coppola','Robert Duvall','English',1.0
+'Drama','Francis Ford Coppola','Frederic Forrest','English',1.0
+'War','Francis Ford Coppola','Marlon Brando','English',1.0
+'War','Francis Ford Coppola','Robert Duvall','English',1.0
+'War','Francis Ford Coppola','Frederic Forrest','English',1.0
+'Action','Ridley Scott','Sigourney Weaver','English',1.0
+'Action','Ridley Scott','Tom Skerritt','English',1.0
+'Action','Ridley Scott','Harry Dean Stanton','English',1.0
+'Horror','Ridley Scott','Sigourney Weaver','English',1.0
+'Horror','Ridley Scott','Tom Skerritt','English',1.0
+'Horror','Ridley Scott','Harry Dean Stanton','English',1.0
+'Sci-Fi','Ridley Scott','Sigourney Weaver','English',1.0
+'Sci-Fi','Ridley Scott','Tom Skerritt','English',1.0
+'Sci-Fi','Ridley Scott','Harry Dean Stanton','English',1.0
+'Crime','Martin Scorsese','Robert De Niro','English',1.0
+'Crime','Martin Scorsese','Ray Liotta','English',1.0
+'Crime','Martin Scorsese','Joe Pesci','English',1.0
+'Drama','Martin Scorsese','Robert De Niro','English',1.0
+'Drama','Martin Scorsese','Ray Liotta','English',1.0
+'Drama','Martin Scorsese','Joe Pesci','English',1.0
