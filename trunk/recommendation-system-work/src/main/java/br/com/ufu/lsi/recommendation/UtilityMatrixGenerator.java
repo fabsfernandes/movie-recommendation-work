@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,9 +19,13 @@ import br.com.ufu.lsi.recommendation.model.UtilityMatrix;
 
 public class UtilityMatrixGenerator {
     
-    private static final String PATH_RATES = "/home/fabiola/Desktop/Doutorado/DataMining/Trabalho-Recomendacao/avaliacoes.csv";
-    private static final String PATH_RATE_MATRIX = "/home/fabiola/Desktop/Doutorado/DataMining/Trabalho-Recomendacao/MU_rates.txt";
-    private static final String PATH_BOOL_MATRIX = "/home/fabiola/Desktop/Doutorado/DataMining/Trabalho-Recomendacao/MU_bool.txt";
+    /*private static final String PATH_RATES = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/treino/ratings_training.txt";
+    private static final String PATH_RATE_MATRIX = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/treino/MU_rates.txt";
+    private static final String PATH_BOOL_MATRIX = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/treino/MU_bool.txt";
+    */
+    private static final String PATH_RATES = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/teste/ratings_test.txt";
+    private static final String PATH_RATE_MATRIX = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/teste/MU_rates.txt";
+    private static final String PATH_BOOL_MATRIX = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/teste/MU_bool.txt";
 
     
     public static void handleLine( String currentLine, UtilityMatrix utilityMatrix, boolean booleanRates ) {    
@@ -112,9 +118,26 @@ public class UtilityMatrixGenerator {
                 writer.print( "\t" + rating );
             }
             writer.println();
+            
+            utilityMatrix.getUsersSparsity().add( userMap.getValue() );
+            
+            
         }
         
         writer.close();
+        
+        // print sparsity order
+        Collections.sort(utilityMatrix.getUsersSparsity(), new Comparator<User>() {
+                
+                public int compare(User  u1, User  u2)
+                {
+
+                    return  u2.getSparsityDegree().compareTo( u1.getSparsityDegree() );
+                }
+            });
+        /*for( User u : usersSparsity ){
+            System.out.println( "User: " + u.getId() + "#movies: " + u.getRatings().size() + " Sparsity: " + u.getSparsityDegree() );
+        }*/
     }
 
     public static void main( String... args ) throws Exception {

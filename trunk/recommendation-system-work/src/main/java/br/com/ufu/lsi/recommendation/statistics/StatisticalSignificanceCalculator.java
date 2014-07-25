@@ -4,6 +4,7 @@ package br.com.ufu.lsi.recommendation.statistics;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,6 +20,8 @@ public class StatisticalSignificanceCalculator {
     private int significanceAbsent = 0;
 
     private Map< String, Item > items = new HashMap< String, Item >();
+    
+    private List<Item> itemsInOrder = new ArrayList<Item>();
 
 
     public static void main( String... args ) {
@@ -31,14 +34,27 @@ public class StatisticalSignificanceCalculator {
         for ( Map.Entry< String, Item > itemMap : calculator.items.entrySet() ) {
             
             Item i = itemMap.getValue();
-            if ( i.getFloorLimit() <= 0.0 && i.getCeilingLimit() >= 0 )
+            if ( i.getFloorLimit() <= 0.0 && i.getCeilingLimit() >= 0 ){
                 calculator.significanceAbsent++;
-            else
+                i.setSignificance( false );
+            }
+            else{
                 calculator.significancePresence++;
+                i.setSignificance( true );
+            }
+            
+            
         }
         
         System.out.println( "#significancePresence = " + calculator.significancePresence );
         System.out.println( "#significanceAbsent = " + calculator.significanceAbsent );
+        System.out.println("#itens = " + calculator.itemsInOrder.size() );
+        for( Item i : calculator.itemsInOrder ){
+            //System.out.println( i.getFloorLimit() + "," + i.getCeilingLimit() + "," + i.isSignificance() );
+            //System.out.println( i.getFloorLimit() );
+            //System.out.println( i.getCeilingLimit() );
+            System.out.println( i.isSignificance() );
+        }
 
     }
 
@@ -100,8 +116,10 @@ public class StatisticalSignificanceCalculator {
             Item it = new Item( itemName );
             items.put( itemName, it );
             item = it;
+            
+            itemsInOrder.add( item );
         }
-
+        
         Accuracy acc = new Accuracy();
         acc.setModel1( Double.parseDouble( tokens[ 2 ] ) );
         acc.setModel2( Double.parseDouble( tokens[ 3 ] ) );

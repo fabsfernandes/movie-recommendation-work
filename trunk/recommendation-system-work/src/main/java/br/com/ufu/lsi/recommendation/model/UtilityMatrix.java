@@ -1,7 +1,9 @@
 package br.com.ufu.lsi.recommendation.model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 
@@ -12,6 +14,8 @@ public class UtilityMatrix {
     HashMap< Long,Movie > movies = new HashMap< Long,Movie >();
     
     Set<Double> ratings = new HashSet<Double>();
+    
+    List<User> usersSparsity = new ArrayList< User >();
 
     
     public HashMap< Long,User > getUsers() {
@@ -49,6 +53,20 @@ public class UtilityMatrix {
     public void setRatings( Set< Double > ratings ) {
     
         this.ratings = ratings;
+    }
+
+
+    
+    public List< User > getUsersSparsity() {
+    
+        return usersSparsity;
+    }
+
+
+    
+    public void setUsersSparsity( List< User > usersSparsity ) {
+    
+        this.usersSparsity = usersSparsity;
     }
 
 }

@@ -14,7 +14,7 @@ import br.com.ufu.lsi.recommendation.model.Movie;
 
 public class UserUtilityMatrixGeneration {
 
-    private static final String PATH_MOVIES = "/home/fabiola/Desktop/Doutorado/DataMining/Trabalho-Recomendacao/dadosFilmes.txt";
+    private static final String PATH_MOVIES = "/home/fabiola/Desktop/Doutorado/DataMining/Projeto-Recomendacao/dadosFilmes.txt";
 
     List< Movie > movies = new ArrayList< Movie >();
     
