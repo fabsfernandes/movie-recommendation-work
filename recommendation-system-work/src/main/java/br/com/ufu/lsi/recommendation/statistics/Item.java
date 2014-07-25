@@ -14,6 +14,8 @@ public class Item {
     
     Double ceilingLimit;
     
+    boolean significance;
+    
     
     public Item( String name ){
         this.name = name;
@@ -100,6 +102,18 @@ public class Item {
     public void setCeilingLimit( Double ceilingLimit ) {
     
         this.ceilingLimit = ceilingLimit;
+    }
+
+    
+    public boolean isSignificance() {
+    
+        return significance;
+    }
+
+    
+    public void setSignificance( boolean significance ) {
+    
+        this.significance = significance;
     }
 
 }

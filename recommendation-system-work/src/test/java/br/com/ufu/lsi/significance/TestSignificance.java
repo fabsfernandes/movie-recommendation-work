@@ -44,4 +44,11 @@ public class TestSignificance {
         
     }
 
+    @Test
+    public void generateFileName(){
+        for( int i = 200; i<=296; i++ ){
+            System.out.print("\"d" + i + "-bool.arff\" ");
+        }
+        
+    }
 }

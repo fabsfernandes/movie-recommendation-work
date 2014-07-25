@@ -9,6 +9,9 @@ public class User {
     
     HashMap<Long,Double> ratings = new HashMap<Long,Double>();
     
+    Double sparsityDegree;
+    
+    
     public User( Long id ){
         
         this.id = id;
@@ -73,6 +76,13 @@ public class User {
     public String toString() {
 
         return "User [id=" + id + ", ratings=" + ratings + "]";
+    }
+
+
+    
+    public Double getSparsityDegree() {
+    
+        return (this.ratings.size())/262.0;
     }
 
 
